@@ -57,7 +57,7 @@ Claude will:
 
 1. Analyse the JD and assess fit
 2. State the positioning angle it's using
-3. Generate a complete tailored resume (ready to copy into Google Docs)
+3. Generate a complete tailored resume (ready to download as `.docx`)
 4. Provide tailoring notes explaining every decision
 
 ### Iterating on a resume
@@ -101,5 +101,3 @@ Project, and re-upload. Changes made only inside a conversation do not persist.
 - **Tell Claude the seniority level** if it's unclear from the JD.
 - **Ask for a cover letter** in the same conversation — Claude will use the same
   tailoring decisions consistently.
-- **Copy the resume output into Google Docs** and apply the formatting from the
-  Google Docs notes in `resume-template.md`.

@@ -115,7 +115,7 @@ Always produce output in this order:
 
 1. **Fit Assessment** (2–3 sentences)
 2. **Positioning Angle** (1 sentence — confirm before proceeding if uncertain)
-3. **Full Resume** (ready to copy into Google Docs)
+3. **Full Resume** (ready to download as `.docx`)
 4. **Tailoring Notes** (bullet list, 4–6 points)
 
 ---

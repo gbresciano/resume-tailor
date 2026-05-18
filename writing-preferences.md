@@ -199,7 +199,7 @@ Use `•` separators, not commas. Group semantically — do not list all skills 
 - Two pages acceptable for senior/strategic roles
 - Never pad to fill space — cut before you expand
 
-### Google Docs Formatting
+### Docx Formatting
 
 - Font: Inter, Arial, Helvetica, or Calibri
 - Body: 10.5–11pt

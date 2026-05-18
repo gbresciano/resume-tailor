@@ -90,9 +90,7 @@ Data & Experimentation:
 
 ---
 
-## Google Docs Formatting Notes
-
-When pasting into Google Docs:
+## Docx Formatting Notes
 
 - **Font:** Inter, Arial, Helvetica, or Calibri
 - **Body size:** 10.5–11pt
