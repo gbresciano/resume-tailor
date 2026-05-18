@@ -30,7 +30,7 @@ Maker · Founder · Founder / Product Engineer · Founder & Product Designer / B
 
 **Responsibilities:**
 
-- Product conception and strategy
+- Product conception, branding and strategy
 - UX design and interaction design
 - Frontend and backend development
 - Full-stack architecture
@@ -72,7 +72,6 @@ Apple iPad App of the Year 2022.
 - Defined roadmap and product vision
 - Defined free tier and monetisation strategy
 - Led activation, conversion, and retention efforts
-- Drove experimentation and analytics
 - Partnered with engineering, design, research, and data teams
 
 **Notable developments:** Shipped Audio recording feature that syncs during playback. Shipped Full-page typing mode for typed notes. Shipped Internal links feature to add links to other pages within the same document. Shipped Customizable toolbar. Shipped Ruler tool. Shipped Dotted line tool.
@@ -94,10 +93,13 @@ Maker · Founder · Founder / Product Engineer · Founder & Product Designer / B
 **Company:** Social travel app for solo travellers. Users can search, join, or
 create and share travel activities.
 
+**Core narrative:** Conceived, designed, and built the product from 0→1.
+
 **Responsibilities:**
 
+- Product conception, branding and strategy
+- UX design and interaction design
 - End-to-end product ownership
-- UX flows and interaction design
 - Full-stack implementation
 - Product architecture
 - Rapid iteration and user feedback loops

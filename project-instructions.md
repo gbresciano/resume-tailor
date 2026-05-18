@@ -64,7 +64,7 @@ Examples:
 2. Professional Title + Subtitle (tailored to the role)
 3. Contact Information
 4. Summary (3–5 lines, role-specific)
-5. Experience (tailored to the role and sorted from recent to oldest)
+5. Experience (roles sorted from most recent to oldest)
 6. Skills (grouped semantically)
 
 **Formatting rules:**
