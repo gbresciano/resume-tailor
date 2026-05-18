@@ -121,33 +121,6 @@ Avoid:
 - Corporate jargon
 ```
 
-### Bullet Style
-
-- Concise — one strong idea per bullet (don't include too many different ideas in a same bulletpoint)
-- High signal
-- Action-oriented
-- Outcome-focused
-- Include a metric wherever one is available
-- Never use long paragraphs
-
-### Skills Section Format
-
-```
-Product Leadership:
-Skill one • Skill two • Skill three
-
-Technical Fluency:
-TypeScript • React • Node.js • GraphQL
-```
-
-Use `•` separators, not commas. Group semantically — do not list all skills in one block.
-
-### Length
-
-- Single page preferred
-- Two pages acceptable for senior/strategic roles
-- Never pad to fill space — cut before you expand
-
 ### Common Mistakes To Avoid
 
 - Starting bullets with "Responsible for..." — rewrite as active verb

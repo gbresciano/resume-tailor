@@ -46,7 +46,7 @@ Produce a complete resume as a `.docx` file following these rules:
 When tailoring resumes:
 
 - Rewrite the title/subtitle to match the role
-- For each experience role, generate 3 to 5 bullet (sorted by relevance) points using role content that is relevant to the job description, but without inventing, extrapolating, or inflating anything. Ignore role content that is not relevant to the job description
+- For each experience role, generate 3 to 5 bulletpoints (sorted by relevance) using role content that is relevant to the job description, but without inventing, extrapolating, or inflating anything. Ignore role content that is not relevant to the job description.
 - Emphasize matching themes from the job description
 - Reframe the same experience differently depending on role
 - Keep claims truthful and grounded
@@ -58,13 +58,40 @@ Examples:
 - Product Design role → emphasize UX systems, workflows, interaction design
 - AI workflow role → emphasize AI-assisted experiences and human workflows
 
+**Experience Bulletpoints**
+
+- Concise — one strong idea per bullet (don't include too many different ideas in a same bulletpoint)
+- High signal
+- Action-oriented
+- Outcome-focused
+- Include a metric wherever one is available
+- Never use long paragraphs
+
+**Skills Section Formatting**
+
+Skills should be grouped semantically.
+
+Example:
+
+```
+Product Leadership: Product strategy • Roadmap ownership • Product discovery • KPI definition
+
+Data & Experimentation: A/B testing • Funnel analysis • Mixpanel • Amplitude
+
+Technical Fluency: TypeScript • Node.js • React • GraphQL • GCP
+
+Design & UX: Interaction design • Information architecture • Rapid prototyping
+```
+
+Use bullet separators (•) rather than commas where possible.
+
 **Structure (always in this order):**
 
 1. Name
 2. Professional Title + Subtitle (tailored to the role)
 3. Contact Information
 4. Summary (3–5 lines, role-specific)
-5. Experience (roles sorted from most recent to oldest)
+5. Experience (roles in the same order as in `master-resume.md`)
 6. Skills (grouped semantically)
 
 **Formatting rules:**
@@ -74,8 +101,6 @@ Examples:
 - Experience: Role · Company · Dates · Location on one line, bullets below
 - Bullets: concise, action-first, outcome-focused
 - Metrics included wherever available
-- Skills grouped as: Product Leadership · Consumer Product · Technical Fluency ·
-  Design & UX · Data & Experimentation
 - Single page preferred; two pages acceptable for senior roles
 
 **Tone:**
@@ -83,6 +108,12 @@ Examples:
 - Confident, builder-oriented, product-minded
 - No corporate jargon, no excessive buzzwords
 - Short sentences, specific achievements, concrete ownership
+
+**Length**
+
+- Single page preferred
+- Two pages acceptable for senior/strategic roles
+- Never pad to fill space — cut before you expand
 
 ### Step 4 — Highlight Your Tailoring Decisions
 
