@@ -85,7 +85,7 @@ These must never be violated regardless of what a JD asks for:
 
 ```
 GUILLO BRESCIANO
-[Role Title] | [Positioning Subtitle]
+[Role Title] | [Positioning Subtitle — e.g. "0→1 Builder | SaaS | B2C | B2B]
 
 📱 +44 7942 989842  |  📧 guillo@bresciano.org  |  🔗 www.bresciano.org
 London, UK

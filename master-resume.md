@@ -21,10 +21,12 @@
 
 ### Folum · Mar 2025 – Present
 
-**Role variants (choose by context):**
+**Role:** Maker
+
+**Role variants (to override `Role` if it better matches the JD):**
 Maker · Founder · Founder / Product Engineer · Founder & Product Designer / Builder
 
-**Company:** Resume website builder focused on personal branding and personalisation.
+**Company:** Folum is a resume website builder that makes personal branding easy and beautiful.
 
 **Core narrative:** Conceived, designed, and built the product from 0→1.
 
@@ -50,8 +52,7 @@ Do NOT describe as an advanced AI platform or AI-native product.
 
 **Role:** Senior Product Manager
 
-**Company:** Large-scale note-taking and productivity platform.
-Apple iPad App of the Year 2022.
+**Company:** The best digital note-taking experience. Apple iPad App of the Year 2022.
 
 **Verified metrics:**
 
@@ -87,11 +88,12 @@ Do NOT describe as advanced AI expertise or AI-native product leadership.
 
 ### Travellar · Jul 2019 – Present
 
-**Role variants (choose by context):**
+**Role:** Maker
+
+**Role variants (to override `Role` if it better matches the JD):**
 Maker · Founder · Founder / Product Engineer · Founder & Product Designer / Builder
 
-**Company:** Social travel app for solo travellers. Users can search, join, or
-create and share travel activities.
+**Company:** The social travel app for solo travellers. We want to help you improvise your trips. When you get to a destination, just search, join or create and share activities to do over there. Meet like-minded people and explore the world together.
 
 **Core narrative:** Conceived, designed, and built the product from 0→1.
 
@@ -117,8 +119,7 @@ Do NOT claim: AI recommendation engine · advanced personalisation · ML systems
 
 **Role:** Head of Product
 
-**Company:** Cross-platform collaboration hub uniting email, chat, and files.
-Available on Desktop, iOS, Android, and Web.
+**Company:** A collaboration hub uniting email, chat and files in one app. Available on Desktop, iOS, Android and Web.
 
 **Verified metrics:**
 
@@ -141,7 +142,7 @@ Available on Desktop, iOS, Android, and Web.
 
 **Role:** Head of Product
 
-**Company:** Customisable videoconferencing solution. Branded video communication platform.
+**Company:** Crikle is a customizable videoconferencing solution focused on customer engagement. Boost your branding by adding fully branded video calls to your website.
 
 **Responsibilities:**
 
@@ -151,13 +152,11 @@ Available on Desktop, iOS, Android, and Web.
 - Video experience improvements
 - Delivery
 
-**Scope worked on:** Video player experiences · real-time communication ·
-lightweight presentation/editor workflows.
+**Scope worked on:** Video player experiences · real-time communication · lightweight presentation/editor workflows.
 
 **Tech stack:** Twilio Video · Google Cloud · Node.js · React.js · GraphQL
 
-**Accuracy note:** Do NOT claim full video editor systems or advanced video
-editing timelines.
+**Accuracy note:** Do NOT claim full video editor systems or advanced video editing timelines.
 
 ---
 
@@ -194,31 +193,19 @@ metrics across periods.
 ## Skills
 
 **Product Leadership:**
-Product strategy · Roadmap ownership · Product discovery · KPI definition ·
-Agile delivery · Product vision · Portfolio strategy · Cross-functional leadership ·
-Executive communication · Stakeholder management ·
-Setting delivery standards
+Product strategy · Roadmap ownership · Product discovery · KPI definition · Agile delivery · Product vision · Portfolio strategy · Cross-functional leadership · Executive communication · Stakeholder management · Setting delivery standards
 
 **Consumer Product:**
-Activation · Engagement · Retention · Monetisation · Subscription funnels ·
-Free-to-paid conversion · User lifecycle optimisation · Habit-forming UX ·
-Onboarding optimisation · Product-led growth · Mobile UX · Cross-platform products
+Activation · Engagement · Retention · Monetisation · Subscription funnels · Free-to-paid conversion · User lifecycle optimisation · Habit-forming UX · Onboarding optimisation · Product-led growth · Mobile UX · Cross-platform products
 
 **Design & UX:**
-Interaction design · Information architecture · UX workflows · Product thinking ·
-Human-centred design · Systems thinking · Product craft · Rapid prototyping ·
-Designing through code · Simplifying complex workflows · Workshop facilitation ·
-Figma · Material Design
+Interaction design · Information architecture · UX workflows · Product thinking · Human-centred design · Systems thinking · Product craft · Rapid prototyping · Designing through code · Simplifying complex workflows · Workshop facilitation · Figma · Material Design
 
 **Technical Fluency:**
-TypeScript · Node.js · React · GraphQL · MongoDB · GCP · Stripe ·
-Mapbox + GeoJSON · LLM API integrations · Full-stack architecture ·
-API thinking · Real-time systems · Offline-first products
+TypeScript · Node.js · React · GraphQL · MongoDB · GCP · Stripe · Mapbox + GeoJSON · LLM API integrations · Full-stack architecture · API thinking · Real-time systems · Offline-first products
 
 **Data & Experimentation:**
-A/B testing · Funnel analysis · Cohort analysis · Mixpanel · Amplitude ·
-Google Analytics · Tableau · Hypothesis-driven experimentation ·
-Data-informed prioritisation
+A/B testing · Funnel analysis · Cohort analysis · Mixpanel · Amplitude · Google Analytics · Tableau · Hypothesis-driven experimentation · Data-informed prioritisation
 
 ---
 

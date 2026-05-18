@@ -8,7 +8,7 @@
 
 ```
 GUILLO BRESCIANO
-[Professional Title] | [Positioning Subtitle — e.g. "0→1 Builder | Consumer SaaS | Collaboration Platforms"]
+[Professional Title] | [Positioning Subtitle — e.g. "0→1 Builder | SaaS | B2C | B2B]
 
 📱 +44 7942 989842  |  📧 guillo@bresciano.org  |  🔗 www.bresciano.org
 London, UK
