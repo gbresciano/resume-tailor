@@ -13,7 +13,6 @@ generates tailored resumes from a single source of truth.
 | `master-resume.md`        | Verified career data — experience, metrics, skills | ✅ Upload as project file            |
 | `writing-preferences.md`  | Tone, wording rules, positioning, fit guidance     | ✅ Upload as project file            |
 | `resume-template.md`      | Structural layout scaffold                         | ✅ Upload as project file            |
-| `tailoring-playbook.md`   | Role-type tailoring rules                          | ✅ Upload as project file            |
 | `README.md`               | This file — setup guide                            | ❌ Keep locally                      |
 
 ---
@@ -38,7 +37,6 @@ Inside the project, click **Add content** (or the paperclip/upload icon):
 - Upload `master-resume.md` — verified career data
 - Upload `writing-preferences.md` — tone, positioning, and fit guidance
 - Upload `resume-template.md` — structural scaffold
-- Upload `tailoring-playbook.md` — role-type tailoring rules
 
 Claude will have persistent access to all three files across every conversation
 in this project.

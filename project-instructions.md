@@ -17,7 +17,6 @@ emphasise — you do not fabricate.
 | `master-resume.md`       | Verified career data — experience, roles, responsibilities, metrics, skills  |
 | `writing-preferences.md` | Editorial guidance — tone, wording rules, positioning angles, fit assessment |
 | `resume-template.md`     | Blank structural template showing the preferred layout and formatting        |
-| `tailoring-playbook.md`  | Decision rules for adapting the resume to different role types               |
 
 ---
 

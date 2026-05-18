@@ -10,8 +10,7 @@
 
 ### Core Statement
 
-"Product leader with strong design and engineering capability who can operate
-end-to-end in high-ownership environments."
+"Product leader with strong design and engineering capability who can operate end-to-end in high-ownership environments."
 
 ### What Guillo Is Not
 
@@ -21,47 +20,6 @@ These framings should never appear in a resume, even if a JD seems to invite the
 - A pure software engineer
 - A media industry expert
 - A deep AI/ML researcher
-
-### Title Variants — Pick by Role Context
-
-| Context              | Title to Use                                          |
-| -------------------- | ----------------------------------------------------- |
-| General IC PM        | Senior Product Manager / Principal Product Manager    |
-| Strategic / org-wide | Head of Product / Product Lead                        |
-| Builder / founding   | Founding Product Engineer / Founding Product Designer |
-| Early-stage startup  | 0→1 Builder / Maker / Founder                         |
-
-### Positioning Statements by Angle
-
-| Angle             | Summary Opening                                                                                                    |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Consumer PM       | "Product leader focused on engagement, retention, and habit-forming consumer experiences."                         |
-| Product Engineer  | "Product-minded engineer operating across UX, architecture, and product strategy."                                 |
-| Founding Designer | "Builder with strong product and interaction design capability who prototypes directly in code."                   |
-| Head of Product   | "Product leader experienced in defining strategy and driving execution across fast-moving cross-functional teams." |
-| AI Workflow PM    | "Experienced building AI-assisted workflows and integrating LLM capabilities into consumer product experiences."   |
-
----
-
-## Fit Assessment
-
-Use this before tailoring to set expectations.
-
-| Signal in JD                          | Fit                                        |
-| ------------------------------------- | ------------------------------------------ |
-| Consumer SaaS · mobile · subscription | Strong                                     |
-| Collaboration / productivity tools    | Strong                                     |
-| 0→1 / founding / builder role         | Strong                                     |
-| AI-assisted product / LLM workflows   | Strong                                     |
-| Video / real-time comms products      | Strong                                     |
-| Enterprise SaaS / B2B                 | Medium — reframe Loop/Crikle               |
-| Pure design role                      | Medium — UX credible, visual design is not |
-| Fintech / healthcare domain           | Medium — skills transfer, no domain depth  |
-| Deep ML / AI research PM              | Weak — honest framing not possible         |
-| Staff/Principal engineering           | Weak                                       |
-| Pure visual design                    | Weak                                       |
-
----
 
 ## Tone
 
@@ -90,8 +48,7 @@ Use this before tailoring to set expectations.
 
 ### Strong Action Verbs — Always Use
 
-Built · Designed · Led · Owned · Defined · Improved · Shipped · Launched ·
-Conceived · Implemented · Increased · Simplified
+Built · Designed · Led · Owned · Defined · Improved · Shipped · Launched · Conceived · Implemented · Increased · Simplified
 
 ### Weak Verbs — Never Use
 
@@ -140,7 +97,7 @@ These must never be violated regardless of what a JD asks for:
 2. Professional title + positioning subtitle
 3. Contact information
 4. Summary (3–5 lines, role-specific)
-5. Experience (Bullets generated using role content that is relevant to the job description, but without inventing, extrapolating, or inflating anything. Ignore role content that is not relevant to the job description. Keep it simple: don't include too many different points in a same bulletpoint)
+5. Experience (Bullets generated using role content that is relevant to the job description, but without inventing, extrapolating, or inflating anything. Ignore role content that is not relevant to the job description)
 6. Other Previous Roles (brief, for completeness)
 7. Skills (grouped semantically)
 
@@ -175,7 +132,7 @@ Optional: one-line company description if not widely known.
 
 ### Bullet Style
 
-- Concise — one strong idea per bullet
+- Concise — one strong idea per bullet (don't include too many different ideas in a same bulletpoint)
 - Action verb first
 - Outcome or scale at the end
 - Include a metric wherever one is available
@@ -198,6 +155,19 @@ Use `•` separators, not commas. Group semantically — do not list all skills 
 - Single page preferred
 - Two pages acceptable for senior/strategic roles
 - Never pad to fill space — cut before you expand
+
+### Common Mistakes To Avoid
+
+- Starting bullets with "Responsible for..." — rewrite as active verb
+- Using "Worked closely with..." — rewrite as what was achieved
+- Vague bullets like "Improved user experience" — add specifics or metrics
+- Overloading the summary with adjectives rather than substance
+- Listing skills that aren't evidenced in the experience section
+- Using the same resume structure for a PM role vs. a founding engineer role
+
+### Metrics Reference (Verified Only)
+
+Only use exact metrics from `master-resume` — do not extrapolate or inflate
 
 ### Docx Formatting
 
