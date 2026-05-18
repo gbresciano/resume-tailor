@@ -140,7 +140,7 @@ These must never be violated regardless of what a JD asks for:
 2. Professional title + positioning subtitle
 3. Contact information
 4. Summary (3–5 lines, role-specific)
-5. Experience (Bullets generated using role content that is relevant to the job description, but without inventing, extrapolating, or inflating anything. Ignore role content that is not relevant to the job description)
+5. Experience (Bullets generated using role content that is relevant to the job description, but without inventing, extrapolating, or inflating anything. Ignore role content that is not relevant to the job description. Keep it simple: don't include too many different points in a same bulletpoint)
 6. Other Previous Roles (brief, for completeness)
 7. Skills (grouped semantically)
 
