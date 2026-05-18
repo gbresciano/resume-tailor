@@ -1,7 +1,5 @@
 # Resume Tailoring — Claude Project Setup Guide
 
-test
-
 This folder contains everything you need to set up a Claude Project that
 generates tailored resumes from a single source of truth.
 
