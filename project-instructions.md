@@ -28,11 +28,9 @@ When the user provides a job description (JD), follow these steps in order:
 
 Extract and briefly summarise:
 
-- **Role type** (PM / Product Engineer / Head of Product / etc.)
+- **Role type** (e.g. PM / Product Engineer / Head of Product / etc.)
 - **Key themes** (e.g. consumer growth, AI workflows, collaboration tools)
 - **Must-have signals** (keywords, skills, or experience the JD emphasises)
-- **Fit assessment** — rate the match (Strong / Medium / Weak) based on the
-  fit guidance in the master resume
 
 ### Step 2 — Select Positioning Angle
 
@@ -43,13 +41,30 @@ State it explicitly before generating the resume so the user can confirm or redi
 
 Produce a complete resume as a `.docx` file following these rules:
 
+**Tailoring Guidance**
+
+When tailoring resumes:
+
+- Rewrite the title/subtitle to match the role
+- For each experience role, generate 3 to 5 bullet (sorted by relevance) points using role content that is relevant to the job description, but without inventing, extrapolating, or inflating anything. Ignore role content that is not relevant to the job description
+- Emphasize matching themes from the job description
+- Reframe the same experience differently depending on role
+- Keep claims truthful and grounded
+
+Examples:
+
+- PM role → emphasize strategy, experimentation, KPIs
+- Product Engineer role → emphasize architecture, shipping, technical fluency
+- Product Design role → emphasize UX systems, workflows, interaction design
+- AI workflow role → emphasize AI-assisted experiences and human workflows
+
 **Structure (always in this order):**
 
 1. Name
 2. Professional Title + Subtitle (tailored to the role)
 3. Contact Information
 4. Summary (3–5 lines, role-specific)
-5. Experience (Sorted from recent to oldest)
+5. Experience (tailored to the role and sorted from recent to oldest)
 6. Skills (grouped semantically)
 
 **Formatting rules:**
@@ -77,6 +92,7 @@ After the resume, include a short **Tailoring Notes** section explaining:
 - Which bullets were prioritised and why
 - Any experiences de-emphasised for this application
 - Any constraints applied (e.g. AI claims kept conservative)
+- Estimated ATS match score
 
 ---
 
@@ -95,37 +111,10 @@ All constraints are defined in `writing-preferences.md`. The non-negotiable ones
 
 ---
 
-## Quick Role-Type Cheat Sheet
-
-| Role Type                        | Emphasise                                                 | De-emphasise                |
-| -------------------------------- | --------------------------------------------------------- | --------------------------- |
-| Senior / Principal PM            | Goodnotes scale, experimentation, KPIs, roadmap           | Engineering details         |
-| Head of Product                  | Loop & Crikle leadership, strategy, cross-functional      | Individual contributor work |
-| Product Engineer / Founding role | Folum + Travellar build, tech stack, architecture         | PM-only framing             |
-| Consumer SaaS PM                 | Goodnotes metrics, retention, monetisation, mobile        | B2B / enterprise themes     |
-| Collaboration / Productivity PM  | Loop, Crikle, Goodnotes, communication tools              | Social/travel themes        |
-| AI Workflow PM                   | LLM integrations across Goodnotes + Folum, AI-assisted UX | Deep ML framing             |
-
----
-
 ## Output Format
 
 Always produce output in this order:
 
-1. **Fit Assessment** (2–3 sentences)
-2. **Positioning Angle** (1 sentence — confirm before proceeding if uncertain)
-3. **Full Resume** (ready to download as `.docx`)
-4. **Tailoring Notes** (bullet list, 4–6 points)
-
----
-
-## Example Trigger Phrases
-
-The user may say things like:
-
-- "Here's a JD, can you tailor my resume?"
-- "Generate a resume for this role"
-- "Optimise for this job posting"
-- "What's my fit for this role?"
-
-In all cases, follow the four-step workflow above.
+1. **Positioning Angle** (1 sentence — confirm before proceeding if uncertain)
+2. **Full Resume** (ready to download as `.docx`)
+3. **Tailoring Notes** (bullet list, 4–6 points)

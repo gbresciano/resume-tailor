@@ -1,8 +1,6 @@
 # Writing Preferences & Positioning Guide
 
-> **Editorial guidance only.** This file contains tone, wording rules,
-> positioning angles, fit assessments, and output conventions. Factual
-> career data lives in `master-resume.md`.
+> **Editorial guidance only.** This file contains tone, wording rules, and output conventions. Factual career data lives in `master-resume.md`.
 
 ---
 
@@ -42,8 +40,6 @@ These framings should never appear in a resume, even if a JD seems to invite the
 - Excessive adjectives
 - Long paragraphs in bullets
 
----
-
 ## Wording Rules
 
 ### Strong Action Verbs — Always Use
@@ -72,34 +68,18 @@ Never use:
 - "Deep AI expertise"
 - "Built an AI engine"
 
----
-
 ## Hard Constraints
 
 These must never be violated regardless of what a JD asks for:
 
 1. **No fabricated metrics.** Only use verified figures from `master-resume.md`.
 2. **No AI inflation.** LLM integrations were real but limited in scope.
-3. **No video editing claims.** Crikle involved video player UX and real-time
-   comms — not full editing timelines or post-production workflows.
-4. **No inflated people management.** Only reference team leadership where the
-   JD requires it and the experience genuinely supports it.
+3. **No video editing claims.** Crikle involved video player UX and real-time comms — not full editing timelines or post-production workflows.
+4. **No inflated people management.** Only reference team leadership where the JD requires it and the experience genuinely supports it.
 5. **No multi-column layouts.** ATS compatibility requires single-column structure.
 6. **No weak verbs.** Rewrite any bullet that starts with helped/assisted/supported.
 
----
-
 ## Resume Format & Style
-
-### Structure (always this order)
-
-1. Name
-2. Professional title + positioning subtitle
-3. Contact information
-4. Summary (3–5 lines, role-specific)
-5. Experience (Bullets generated using role content that is relevant to the job description, but without inventing, extrapolating, or inflating anything. Ignore role content that is not relevant to the job description)
-6. Other Previous Roles (brief, for completeness)
-7. Skills (grouped semantically)
 
 ### Header Format
 
@@ -126,15 +106,27 @@ ROLE TITLE  ·  Start – End
 Company Name  ·  Location
 Optional: one-line company description if not widely known.
 
-• Bullet one — action + what + outcome
-• Bullet two — action + what + outcome or metric
+Then concise bullet points:
+- Focus on outcomes
+- Focus on ownership
+- Focus on measurable impact
+- Focus on shipped products
+- Focus on product thinking
+- Focus on systems/UX simplification
+- Focus on scale/growth metrics
+
+Avoid:
+- Long paragraphs
+- Generic responsibilities
+- Corporate jargon
 ```
 
 ### Bullet Style
 
 - Concise — one strong idea per bullet (don't include too many different ideas in a same bulletpoint)
-- Action verb first
-- Outcome or scale at the end
+- High signal
+- Action-oriented
+- Outcome-focused
 - Include a metric wherever one is available
 - Never use long paragraphs
 
@@ -167,7 +159,7 @@ Use `•` separators, not commas. Group semantically — do not list all skills 
 
 ### Metrics Reference (Verified Only)
 
-Only use exact metrics from `master-resume` — do not extrapolate or inflate
+Only use exact metrics from `master-resume.md` — do not extrapolate or inflate
 
 ### Docx Formatting
 
