@@ -185,6 +185,10 @@ Every primary experience entry uses the same field set in the same order. Fields
 
 **Company:** Crikle is a customizable videoconferencing solution focused on customer engagement. Boost your branding by adding fully branded video calls to your website.
 
+**Key achievements:**
+
+- Improved call reliability and user experience by iterating on connection flows, error handling, and session performance.
+
 **Responsibilities:**
 
 - Product strategy and roadmap ownership
@@ -196,8 +200,9 @@ Every primary experience entry uses the same field set in the same order. Fields
 **Notable developments:**
 
 - Owned video player experiences
-- Owned real-time communication workflows
+- Shipped and iterated on real-time communication workflows using Twilio Video.
 - Owned lightweight presentation/editor workflows
+- Defined product requirements, success metrics, and launch plans for core video experiences.
 
 **Tech stack:** Twilio Video · Google Cloud · Node.js · React.js · GraphQL
 
