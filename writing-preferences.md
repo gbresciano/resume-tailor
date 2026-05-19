@@ -60,40 +60,13 @@ These apply regardless of user. Person-specific accuracy constraints (AI scope, 
 
 ---
 
-## Resume Format & Style
+## Visual Formatting
 
-### Header Format
+All visual styling — layout, typography levels, accent colour, spacing, bullet style, docx export specs — lives in `resume-template.md`. Follow that file's "Visual Styling — Keep It Consistent and Simple" section as the single source of truth. Don't duplicate or override its rules here.
 
-```
-[NAME IN ALL CAPS]
-[Role Title] | [Positioning Subtitle]
+---
 
-[Phone]  |  [Email]  |  [Website]
-[Location]
-```
-
-- Name in ALL CAPS
-- Title from the fixed set in `personal-profile.md`
-- Subtitle specificity tracks experience depth (see `project-instructions.md`)
-- Contact info compact and on one line if possible
-
-### Section Titles
-
-UPPERCASE · Bold · Minimal spacing · No decorative elements
-
-### Experience Entry Format
-
-```
-ROLE TITLE  ·  Start – End
-Company Name  ·  Location
-Optional: one-line company description if not widely known.
-
-• Concise, action-first bullet, outcome-focused
-• Specific shipped work or measurable impact
-• JD keywords woven in where the underlying work supports them
-```
-
-### Common Mistakes To Avoid
+## Common Mistakes To Avoid
 
 - Starting bullets with "Responsible for..." — rewrite as active verb
 - "Worked closely with..." — rewrite as what was actually achieved
@@ -102,21 +75,17 @@ Optional: one-line company description if not widely known.
 - Listing skills not evidenced in the experience section
 - Reusing the same resume structure regardless of role (PM vs. founding engineer should look different)
 - Paraphrasing `Responsibilities` from the master resume when `Notable developments` / `Key achievements` would yield richer, more keyword-dense bullets
+- Merging two unrelated items into one bullet for density (e.g. combining a shipped feature with an unrelated technical system) — split them into separate bullets instead
 
-### Metrics Reference
+---
+
+## Metrics Reference
 
 Only use exact metrics from `master-resume.md` — do not extrapolate, round differently, or combine across periods.
 
-### Docx Formatting
+---
 
-- Font: Inter, Arial, Helvetica, or Calibri
-- Body: 10.5–11pt
-- Name: 18–20pt bold
-- Margins: ~1.5cm all sides
-- No tables, no text boxes, no multi-column layouts
-- Export to PDF to verify ATS compatibility before submitting
-
-### Length
+## Length
 
 - Single page preferred
 - Two pages acceptable for senior/strategic roles

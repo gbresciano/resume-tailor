@@ -1,0 +1,59 @@
+{
+  "font": {
+    "primary": "Inter",
+    "fallbacks": ["Helvetica", "Calibri", "Arial"]
+  },
+  "colors": {
+    "body": "#1A1A1A",
+    "accent": "#3B3F8A"
+  },
+  "typography": {
+    "name": {
+      "size_pt": 24,
+      "weight": "bold",
+      "color": "accent",
+      "transform": "uppercase"
+    },
+    "section_title": {
+      "size_pt": 13,
+      "weight": "bold",
+      "color": "body",
+      "transform": "uppercase"
+    },
+    "role_title": {
+      "size_pt": 13,
+      "weight": "bold",
+      "color": "accent"
+    },
+    "resume_title": {
+      "size_pt": 11,
+      "weight": "regular",
+      "color": "body"
+    },
+    "body": {
+      "size_pt": 11,
+      "weight": "regular",
+      "color": "body"
+    }
+  },
+  "spacing": {
+    "margins_cm": 1.5,
+    "line_height": 1.3,
+    "between_bullets_pt": 2,
+    "between_roles_pt": 10,
+    "before_section_title_pt": 16
+  },
+  "bullets": {
+    "character": "•",
+    "color": "body",
+    "indent": "standard"
+  },
+  "links": {
+    "color": "accent",
+    "underlined": false
+  },
+  "layout": {
+    "columns": 1,
+    "page_size": "A4"
+  }
+}

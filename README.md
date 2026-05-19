@@ -22,7 +22,8 @@ To adapt this project for a different person, edit only the **Personal layer**. 
 | ------------------------- | --------------------------------------------------------------------------- | -------- | ------------------------------------ |
 | `project-instructions.md` | The Claude Project system prompt                                            | Generic  | ✅ Paste into "Project Instructions" |
 | `writing-preferences.md`  | Editorial style guide — tone, verb register, format, common mistakes        | Generic  | ✅ Upload as project file            |
-| `resume-template.md`      | Structural layout scaffold                                                  | Generic  | ✅ Upload as project file            |
+| `resume-template.md`      | Structural layout + visual styling rules                                    | Generic  | ✅ Upload as project file            |
+| `resume-style.json`       | Concrete styling parameters — font, colours, sizes, spacing                 | Generic  | ✅ Upload as project file            |
 | `personal-profile.md`     | Identity, positioning, resume title set, cross-cutting accuracy constraints | Personal | ✅ Upload as project file            |
 | `master-resume.md`        | Verified career data — experience, metrics, skills                          | Personal | ✅ Upload as project file            |
 | `README.md`               | This file — setup guide                                                     | —        | ❌ Keep locally                      |
@@ -42,16 +43,17 @@ Name it something like: `Resume Tailoring — [Your Name]`
 - Open `project-instructions.md` and paste the entire contents in
 - Save
 
-### 3. Upload the four knowledge files
+### 3. Upload the five knowledge files
 
 Inside the project, click **Add content** (or the paperclip/upload icon):
 
 - Upload `master-resume.md` — verified career data
 - Upload `personal-profile.md` — identity, positioning, accuracy constraints
 - Upload `writing-preferences.md` — tone, verbs, format
-- Upload `resume-template.md` — structural scaffold
+- Upload `resume-template.md` — structural scaffold + styling rules
+- Upload `resume-style.json` — concrete styling parameters
 
-Claude will have persistent access to all four files across every conversation in this project.
+Claude will have persistent access to all five files across every conversation in this project.
 
 ---
 
@@ -96,10 +98,11 @@ To adapt this project for a different person:
    - **Core Positioning Statement** — one sentence describing how they pitch themselves
    - **What You Are NOT** — framings to refuse even when invited (e.g. for an IC engineer who isn't a manager, list "people leader" here)
    - **Resume Title — Fixed Set** — the canonical titles they're willing to use (e.g. a designer might use "Senior Product Designer / Staff Product Designer / Design Lead")
-   - **AI Scope — Conservative Register** — only if they have *some* AI exposure that's been overclaimed by past resumes; otherwise remove this section
+   - **AI Scope — Conservative Register** — only if they have _some_ AI exposure that's been overclaimed by past resumes; otherwise remove this section
    - **Cross-Cutting Accuracy Constraints** — domain-specific overclaim guards (e.g. "no full-stack claims if the experience was frontend-only")
 3. **Leave the generic files alone** — `project-instructions.md`, `writing-preferences.md`, and `resume-template.md` work as-is.
 4. **Update `resume-template.md` contact line** with the new person's contact info.
+5. **Optionally tweak `resume-style.json`** if you want a different accent colour, font, or sizing. The defaults match a clean, ATS-friendly style
 
 The generic files reference the personal files by name. As long as the personal files exist and follow the same section structure, the prompt logic continues to work.
 
@@ -115,7 +118,9 @@ Files have different update cadences — treat them separately:
 
 **`writing-preferences.md`** — update if your editorial preferences drift (verb register, common mistakes you keep noticing). Rare.
 
-**`resume-template.md`** — update for format-only changes (margins, font preferences). Rare.
+**`resume-template.md`** — update if the _layout structure_ changes (new section, different ordering). Rare.
+
+**`resume-style.json`** — update for visual parameter changes (accent colour, font family, sizes, margins, spacing). One-line edits, no prompt changes needed.
 
 To update any file: edit it locally, delete the old version from the Claude Project, and re-upload. Changes made only inside a conversation do not persist.
 

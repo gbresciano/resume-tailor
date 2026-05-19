@@ -15,7 +15,8 @@ You reframe, reorder, emphasise, and — critically — **mirror the JD's own ke
 | `master-resume.md`       | Verified career data — experience, roles, responsibilities, metrics, skills        | Personal |
 | `personal-profile.md`    | Identity, positioning, resume title set, cross-cutting accuracy constraints        | Personal |
 | `writing-preferences.md` | Generic editorial style guide — tone, verb register, format, common mistakes       | Generic  |
-| `resume-template.md`     | Generic structural template for the output                                         | Generic  |
+| `resume-template.md`     | Generic structural template + visual styling rules                                 | Generic  |
+| `resume-style.json`      | Concrete styling parameters — font, colours, sizes, spacing                        | Generic  |
 
 When adapting this project for a different person, only the **Personal** files need to change. The **Generic** files apply as-is.
 
@@ -74,6 +75,7 @@ Choose the best positioning angle for this role, grounded in the core positionin
 - **Title:** Pick from the fixed set in `personal-profile.md` based on the JD's seniority and role type.
 - **Subtitle:** Apply the specificity-tracks-depth rule above.
 - **Summary:** 3–5 lines, written fresh for this role. Lead with the positioning angle and pack in 3–5 high-value JD keywords naturally. Anchor with 1–2 specifics (a metric, product type, or differentiator).
+- **Role order:** Render Experience entries in the **exact order they appear in `master-resume.md`** — don't reorder by JD relevance, by date, or by perceived impact. The master resume's ordering is canonical.
 - **Experience bullets:** 3–5 per role, sorted by relevance to the JD. **Mine the high-value fields in `master-resume.md` (see the Schema section at the top of that file): `Key achievements`, `Notable developments`, `Verified metrics`, `Tech stack`, and `Tools`.** These contain the specific shipped work, outcomes, and tooling that produce keyword-rich bullets. Don't default to paraphrasing `Responsibilities` — that produces generic, low-match bullets. Rewrite bullets to include JD keywords where the underlying work supports them. Skip role content irrelevant to the JD. If a role only has `Responsibilities` (no enrichment fields), flag it in the Tailoring Notes — bullets for that role will read more generically.
 - **Previous Roles section:** Roles listed under `Previous Roles` in the master resume should be rendered as a compact one-line-per-role "Earlier Experience" entry at the bottom of the Experience section — typically title, company, dates, and a brief context phrase. Don't expand these into full bullet entries unless the JD specifically values that history.
 - **Reframe across roles:** The same experience should read differently for a PM vs. a Product Engineer vs. a Design role. Pull out different facets — and different keyword sets — each time.
@@ -85,7 +87,12 @@ Examples of reframing:
 - Product Design role → UX systems, workflows, interaction design, simplification
 - AI workflow role → AI-assisted experiences and human workflows (at the conservative register defined in `personal-profile.md`)
 
-Bullets should be concise, action-led, outcome-focused, and include a verified metric where available. One strong idea per bullet.
+**One idea per bullet.** Each bullet describes a single distinct item — one shipped feature, one system, one outcome. When a role's `Key achievements` or `Notable developments` lists multiple items, generate **separate bullets** for the ones worth surfacing. Never merge unrelated items into a single bullet to chase keyword density — that produces incoherent bullets and the ATS doesn't reward it.
+
+> ❌ Anti-pattern: "Shipped [System A] and built [System B]" — combines two unrelated capabilities in one bullet.
+> ✅ Instead: one bullet per system, each with its own action and outcome.
+
+Bullets should be concise, action-led, outcome-focused, and include a verified metric where available.
 
 For structure, formatting, tone, and verb/phrasing register, follow `resume-template.md` and `writing-preferences.md`. For person-specific accuracy guards (AI scope, domain overclaim limits), follow `personal-profile.md`.
 

@@ -12,20 +12,20 @@
 
 Every primary experience entry uses the same field set in the same order. Fields are optional unless marked **required**. Empty fields are omitted (rather than left as placeholders).
 
-| Field                  | Required | Purpose                                                                                  |
-| ---------------------- | :------: | ---------------------------------------------------------------------------------------- |
-| **Role**               |    ✓     | Canonical job title held                                                                 |
-| **Role variants**      |          | Alternative titles to use when a JD better fits a different framing (founder-type roles) |
-| **Company**            |    ✓     | One-line company description for context                                                 |
-| **Core narrative**     |          | One-line punchline framing for founder/0→1 roles                                         |
-| **Verified metrics**   |          | Exact, verified figures only — never approximated or combined                            |
-| **Key achievements**   |          | Top-level outcomes worth highlighting (3–5 items)                                        |
-| **Responsibilities**   |    ✓     | Ongoing scope of the role                                                                |
-| **Notable developments** |        | Specific systems, features, or technical work shipped — primary source for tailored bullets |
-| **Tech stack**         |          | Engineering technologies used (for technical bullets / skills mining)                    |
-| **Tools**              |          | Analytics, PM, and ops tools used (for PM bullets / skills mining)                       |
-| **AI scope**           |          | Honest description of AI work done, with overclaim guards                                |
-| **Accuracy notes**     |          | Per-role truth constraints (platforms, scope limits, etc.)                               |
+| Field                    | Required | Purpose                                                                                     |
+| ------------------------ | :------: | ------------------------------------------------------------------------------------------- |
+| **Role**                 |    ✓     | Canonical job title held                                                                    |
+| **Role variants**        |          | Alternative titles to use when a JD better fits a different framing (founder-type roles)    |
+| **Company**              |    ✓     | One-line company description for context                                                    |
+| **Core narrative**       |          | One-line punchline framing for founder/0→1 roles                                            |
+| **Verified metrics**     |          | Exact, verified figures only — never approximated or combined                               |
+| **Key achievements**     |          | Top-level outcomes worth highlighting (3–5 items)                                           |
+| **Responsibilities**     |    ✓     | Ongoing scope of the role                                                                   |
+| **Notable developments** |          | Specific systems, features, or technical work shipped — primary source for tailored bullets |
+| **Tech stack**           |          | Engineering technologies used (for technical bullets / skills mining)                       |
+| **Tools**                |          | Analytics, PM, and ops tools used (for PM bullets / skills mining)                          |
+| **AI scope**             |          | Honest description of AI work done, with overclaim guards                                   |
+| **Accuracy notes**       |          | Per-role truth constraints (platforms, scope limits, etc.)                                  |
 
 **For tailoring:** `Key achievements`, `Notable developments`, and `Verified metrics` are the highest-value fields for bullet generation. If a role only has `Responsibilities`, bullets will read generically — flag this in Tailoring Notes.
 
@@ -62,7 +62,12 @@ Every primary experience entry uses the same field set in the same order. Fields
 - Subscription monetisation
 - Rapid iteration based on user feedback
 
-**Notable developments:** Designed a modular block-based architecture with structured data blocks, reusable React components, draggable/reorderable layouts, multiple presentation types, and a flexible content rendering system. Engineered a centralized theming system enabling users to fully customize and apply personalized themes across the entire UI of their web resume. Users can share their contact vCard through a page button, link, or QR code. Implemented custom domains for paid users.
+**Notable developments:**
+
+- Designed a modular block-based architecture with structured data blocks, reusable React components, draggable/reorderable layouts, multiple presentation types, and a flexible content rendering system
+- Engineered a centralized theming system enabling users to fully customize and apply personalized themes across the entire UI of their web resume
+- Implemented contact vCard sharing through a page button, link, or QR code
+- Implemented custom domains for paid users
 
 **Tech stack:** GCP · Node.js · MongoDB · React · TypeScript · GraphQL · Stripe
 
@@ -97,7 +102,14 @@ Every primary experience entry uses the same field set in the same order. Fields
 - Led activation, conversion, and retention efforts
 - Partnered with engineering, design, research, and data teams
 
-**Notable developments:** Shipped Audio recording feature that syncs during playback. Shipped Full-page typing mode for typed notes. Shipped Internal links feature to add links to other pages within the same document. Shipped Customizable toolbar. Shipped Ruler tool. Shipped Dotted line tool.
+**Notable developments:**
+
+- Shipped Audio recording feature that syncs during playback
+- Shipped Full-page typing mode for typed notes
+- Shipped Internal links feature to add links to other pages within the same document
+- Shipped Customizable toolbar
+- Shipped Ruler tool
+- Shipped Dotted line tool
 
 **Tools:** Mixpanel · Amplitude · Google Analytics · Tableau · Notion · Jira · Productboard
 
@@ -126,7 +138,12 @@ Every primary experience entry uses the same field set in the same order. Fields
 - Product architecture
 - Rapid iteration and user feedback loops
 
-**Notable developments:** Offline-first capabilities for travellers with limited connectivity. Social elements for sharing activities and lists, and commenting on activities. Implemented Socket.io to enable real-time updates for content and comments across active sessions without requiring page refreshes. Extensive Mapbox integration with GeoJSON (including polylines) and routing.
+**Notable developments:**
+
+- Built offline-first capabilities for travellers with limited connectivity
+- Built social elements for sharing activities and lists, and commenting on activities
+- Implemented Socket.io to enable real-time updates for content and comments across active sessions without requiring page refreshes
+- Built extensive Mapbox integration with GeoJSON (including polylines) and routing
 
 **Tech stack:** GCP · Node.js · MongoDB · React · TypeScript · GraphQL · Socket.io
 
@@ -153,7 +170,10 @@ Every primary experience entry uses the same field set in the same order. Fields
 - User activation improvements
 - Product metrics and prioritisation
 
-**Notable developments:** _Not yet documented — add specific shipped work here to improve tailored bullets._
+**Notable developments:**
+
+- Built an onboarding flow that improved the activation rate from 8% → 17%
+- Launched webapp which reduced onboarding friction of downloaing and installing an app on desktop
 
 **Accuracy notes:** Do NOT claim full cross-platform parity ownership.
 
@@ -173,7 +193,11 @@ Every primary experience entry uses the same field set in the same order. Fields
 - Video experience improvements
 - Delivery
 
-**Notable developments:** Video player experiences · real-time communication · lightweight presentation/editor workflows.
+**Notable developments:**
+
+- Owned video player experiences
+- Owned real-time communication workflows
+- Owned lightweight presentation/editor workflows
 
 **Tech stack:** Twilio Video · Google Cloud · Node.js · React.js · GraphQL
 
