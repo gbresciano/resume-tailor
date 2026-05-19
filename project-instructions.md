@@ -22,6 +22,30 @@ When adapting this project for a different person, only the **Personal** files n
 
 ---
 
+## Master Resume Schema
+
+Every primary experience entry in `master-resume.md` uses the same field set in the same order. Fields are optional unless marked **required**. Empty fields are omitted (rather than left as placeholders).
+
+| Field                    | Required | Purpose                                                                                     |
+| ------------------------ | :------: | ------------------------------------------------------------------------------------------- |
+| **Role**                 |    ✓     | Canonical job title held                                                                    |
+| **Role variants**        |          | Alternative titles to use when a JD better fits a different framing (founder-type roles)    |
+| **Previous role**        |          | Flag (`Yes` if set) marking a role as "Previous" — controls default render in tailored output (see the "Previous roles (flagged)" rule in Step 3 below) |
+| **Company**              |    ✓     | One-line company description for context                                                    |
+| **Core narrative**       |          | One-line punchline framing for founder/0→1 roles                                            |
+| **Verified metrics**     |          | Exact, verified figures only — never approximated or combined                               |
+| **Key achievements**     |          | Top-level outcomes worth highlighting (3–5 items)                                           |
+| **Responsibilities**     |    ✓     | Ongoing scope of the role                                                                   |
+| **Notable developments** |          | Specific systems, features, or technical work shipped — primary source for tailored bullets |
+| **Tech stack**           |          | Engineering technologies used (for technical bullets / skills mining)                       |
+| **Tools**                |          | Analytics, PM, and ops tools used (for PM bullets / skills mining)                          |
+| **AI scope**             |          | Honest description of AI work done, with overclaim guards                                   |
+| **Accuracy notes**       |          | Per-role truth constraints (platforms, scope limits, etc.)                                  |
+
+**For tailoring:** `Key achievements`, `Notable developments`, and `Verified metrics` are the highest-value fields for bullet generation. If a role only has `Responsibilities`, bullets will read generically — flag this in Tailoring Notes.
+
+---
+
 ## The ATS Optimisation Principle
 
 ATS systems score resumes largely on keyword overlap with the JD. To maximise the score:
@@ -47,6 +71,8 @@ The resume title is **not** a direct mirror of the JD's role title. Pick from th
 - If the master resume shows **shallow or peripheral experience** in the JD's domain, **stay broad and don't name it**. Use higher-level categories the user genuinely operates in (e.g. role archetype, go-to-market model, audience type). Broad-but-true beats specific-but-stretching.
 - The subtitle is where JD-aligned keyword density lives — but only with terms the master resume genuinely supports.
 - Rewrite the subtitle fresh for each application. Don't reuse one across submissions.
+- **Format — each item is a complete, standalone noun phrase.** Items should make sense in isolation. Use `0→1 Product Builder`, not `0→1`. Use `LLM Integrations`, not `LLM`. Use `Subscription Growth`, not `Subscription`. Fragments and single-word items read as filler.
+- **Separator — use the pipe from `resume-style.json`** (`separators.subtitle`, currently ` | `). The full line under the name reads as: `[Resume Title] | [Item 1] | [Item 2] | [Item 3]`. Don't use `·` or other separators for the subtitle.
 
 When in doubt, ask: *can I point to a specific `Notable development` or `Key achievement` in `master-resume.md` that backs this subtitle phrase?* If not, broaden.
 
@@ -76,8 +102,11 @@ Choose the best positioning angle for this role, grounded in the core positionin
 - **Subtitle:** Apply the specificity-tracks-depth rule above.
 - **Summary:** 3–5 lines, written fresh for this role. Lead with the positioning angle and pack in 3–5 high-value JD keywords naturally. Anchor with 1–2 specifics (a metric, product type, or differentiator).
 - **Role order:** Render Experience entries in the **exact order they appear in `master-resume.md`** — don't reorder by JD relevance, by date, or by perceived impact. The master resume's ordering is canonical.
-- **Experience bullets:** 3–5 per role, sorted by relevance to the JD. **Mine the high-value fields in `master-resume.md` (see the Schema section at the top of that file): `Key achievements`, `Notable developments`, `Verified metrics`, `Tech stack`, and `Tools`.** These contain the specific shipped work, outcomes, and tooling that produce keyword-rich bullets. Don't default to paraphrasing `Responsibilities` — that produces generic, low-match bullets. Rewrite bullets to include JD keywords where the underlying work supports them. Skip role content irrelevant to the JD. If a role only has `Responsibilities` (no enrichment fields), flag it in the Tailoring Notes — bullets for that role will read more generically.
-- **Previous Roles section:** Roles listed under `Previous Roles` in the master resume should be rendered as a compact one-line-per-role "Earlier Experience" entry at the bottom of the Experience section — typically title, company, dates, and a brief context phrase. Don't expand these into full bullet entries unless the JD specifically values that history.
+- **Experience bullets:** 3–5 per role, sorted by relevance to the JD. **Mine the high-value fields in `master-resume.md` (see the Master Resume Schema section above): `Key achievements`, `Notable developments`, `Verified metrics`, `Tech stack`, and `Tools`.** These contain the specific shipped work, outcomes, and tooling that produce keyword-rich bullets. Don't default to paraphrasing `Responsibilities` — that produces generic, low-match bullets. Rewrite bullets to include JD keywords where the underlying work supports them. Skip role content irrelevant to the JD. If a role only has `Responsibilities` (no enrichment fields), flag it in the Tailoring Notes — bullets for that role will read more generically.
+- **Previous roles (flagged):** Roles in `master-resume.md` with `**Previous role:** Yes` are rendered differently from main Experience roles:
+  - **Default — collapsed.** Render as a one-line entry at the bottom of the Experience section (under an "Earlier Experience" header) — typically title, company, dates, and a brief context phrase. No bullets.
+  - **Conditional — expanded.** If the JD specifically benefits from the role's content (e.g. the JD emphasises a theme that the role's `Key achievements` or `Notable developments` directly addresses), render it as a full bullet entry like the main Experience roles. **When in doubt, default to collapsed.**
+  - **Flag the choice in Tailoring Notes.** Note any Previous role that was expanded, and the JD signal that justified the expansion.
 - **Reframe across roles:** The same experience should read differently for a PM vs. a Product Engineer vs. a Design role. Pull out different facets — and different keyword sets — each time.
 - **Skills section:** This is high-leverage for ATS. Group semantically (see `resume-template.md`). Pick groups and items that maximise overlap with the JD's keyword list, drawing from the master resume's skills inventory. Skip irrelevant skills. If the JD names a specific tool/method the user has used, list it explicitly.
 

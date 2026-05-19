@@ -2,32 +2,11 @@
 
 > **Factual record only.** This file contains verified experience, roles,
 > responsibilities, metrics, and skills. Do not invent, extrapolate, or
-> inflate anything not listed here. For tone, wording preferences, and fit
-> guidance, see `writing-preferences.md`. For positioning, the title set,
-> and cross-cutting accuracy constraints, see `personal-profile.md`.
-
----
-
-## Schema
-
-Every primary experience entry uses the same field set in the same order. Fields are optional unless marked **required**. Empty fields are omitted (rather than left as placeholders).
-
-| Field                    | Required | Purpose                                                                                     |
-| ------------------------ | :------: | ------------------------------------------------------------------------------------------- |
-| **Role**                 |    ✓     | Canonical job title held                                                                    |
-| **Role variants**        |          | Alternative titles to use when a JD better fits a different framing (founder-type roles)    |
-| **Company**              |    ✓     | One-line company description for context                                                    |
-| **Core narrative**       |          | One-line punchline framing for founder/0→1 roles                                            |
-| **Verified metrics**     |          | Exact, verified figures only — never approximated or combined                               |
-| **Key achievements**     |          | Top-level outcomes worth highlighting (3–5 items)                                           |
-| **Responsibilities**     |    ✓     | Ongoing scope of the role                                                                   |
-| **Notable developments** |          | Specific systems, features, or technical work shipped — primary source for tailored bullets |
-| **Tech stack**           |          | Engineering technologies used (for technical bullets / skills mining)                       |
-| **Tools**                |          | Analytics, PM, and ops tools used (for PM bullets / skills mining)                          |
-| **AI scope**             |          | Honest description of AI work done, with overclaim guards                                   |
-| **Accuracy notes**       |          | Per-role truth constraints (platforms, scope limits, etc.)                                  |
-
-**For tailoring:** `Key achievements`, `Notable developments`, and `Verified metrics` are the highest-value fields for bullet generation. If a role only has `Responsibilities`, bullets will read generically — flag this in Tailoring Notes.
+> inflate anything not listed here.
+>
+> - For the **schema** (field structure used by each Experience entry), see `project-instructions.md`.
+> - For **tone and wording preferences**, see `writing-preferences.md`.
+> - For **positioning, the title set, and cross-cutting accuracy constraints**, see `personal-profile.md`.
 
 ---
 
@@ -72,6 +51,8 @@ Every primary experience entry uses the same field set in the same order. Fields
 **Tech stack:** GCP · Node.js · MongoDB · React · TypeScript · GraphQL · Stripe
 
 **AI scope:** LLM integration for resume parsing only. Do NOT describe as an advanced AI platform or AI-native product.
+
+**Accuracy notes:** Subscription model with Stripe is implemented but Folum has not launched commercially yet — no paying users. The achievement is the 0→1 technical build and product readiness, not market scale or revenue.
 
 ---
 
@@ -210,12 +191,58 @@ Every primary experience entry uses the same field set in the same order. Fields
 
 ---
 
-## Previous Roles
+### ASOS · Mar 2018 – Jul 2019
 
-Earlier roles, summarised for context. Use sparingly in tailored resumes — typically as a one-line entry under an "Earlier Experience" section.
+**Role:** Product Owner
 
-- **Product Owner · ASOS · Mar 2018 – Jul 2019** — Large-scale e-commerce platform. Agile delivery environment.
-- **Various roles · Danone · Sep 2009 – Jan 2018** — Business Intelligence · data & analytics · dashboards & reports.
+**Previous role:** Yes
+
+**Company:** ASOS is a leading global online fashion retailer.
+
+**Key achievements:**
+
+- Architected and built a custom mobile BI tool for the CEO, CIO, and executive leadership team
+- Owned end-to-end design and development of both the PWA and the native iOS app
+
+**Responsibilities:**
+
+- Product ownership for executive-facing internal tooling
+- Agile delivery in a large-scale e-commerce environment
+
+**Notable developments:**
+
+- Designed and built a custom mobile BI tool for the CEO, CIO, and executive team — delivering real-time business insights to leadership
+- Handled both PWA and native iOS design and development end-to-end as a single "maker"
+- Defined the executive dashboarding experience from scratch — information architecture, interaction design, and engineering
+
+**Tech stack:** PWA · Native iOS
+
+**Accuracy notes:** Did NOT work on the main ASOS consumer retail app. The work was an internal, executive-facing tool — not customer-facing e-commerce product.
+
+---
+
+### Danone · Sep 2009 – Jan 2018
+
+**Role:** Various roles in Business Intelligence
+
+**Previous role:** Yes
+
+**Company:** Danone is a multinational food-products corporation.
+
+**Key achievements:**
+
+- Built Danone Uruguay's Business Intelligence function from scratch
+- Designed and shipped a mobile dashboarding platform recognised as a "global best practice" by Danone HQ in Paris
+
+**Responsibilities:**
+
+- Business Intelligence, data analytics, dashboards, and executive reporting
+- Mobile-first analytics tooling for the local business
+
+**Notable developments:**
+
+- Conceived and shipped Danone Uruguay's mobile dashboarding platform — adopted as a global best practice by HQ in Paris
+- Established BI processes, reporting cadences, and analytics tooling from a standing start
 
 ---
 
@@ -247,10 +274,10 @@ Activation · Engagement · Retention · Monetisation · Subscription funnels ·
 Interaction design · Information architecture · UX workflows · Product thinking · Human-centred design · Systems thinking · Product craft · Rapid prototyping · Designing through code · Simplifying complex workflows · Workshop facilitation · Figma · Material Design
 
 **Technical Fluency:**
-TypeScript · Node.js · React · GraphQL · MongoDB · GCP · Stripe · Mapbox + GeoJSON · LLM API integrations · Full-stack architecture · API thinking · Real-time systems · Offline-first products
+TypeScript · Node.js · React · GraphQL · MongoDB · GCP · Stripe · Mapbox + GeoJSON · LLM API integrations · Full-stack architecture · API thinking · Real-time systems · Offline-first products · PWA development
 
 **Data & Experimentation:**
-A/B testing · Funnel analysis · Cohort analysis · Mixpanel · Amplitude · Google Analytics · Tableau · Hypothesis-driven experimentation · Data-informed prioritisation
+A/B testing · Funnel analysis · Cohort analysis · Mixpanel · Amplitude · Google Analytics · Tableau · Hypothesis-driven experimentation · Data-informed prioritisation · Executive dashboarding · Business Intelligence tooling
 
 ---
 

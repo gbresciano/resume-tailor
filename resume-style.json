@@ -48,6 +48,11 @@
     "color": "body",
     "indent": "standard"
   },
+  "separators": {
+    "subtitle": " | ",
+    "contact_line": "  •  ",
+    "skills_inline": " • "
+  },
   "links": {
     "color": "accent",
     "underlined": false

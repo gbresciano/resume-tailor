@@ -10,6 +10,32 @@
 
 ---
 
+## Positioning Angles
+
+The Core Statement above is the default. For specific role contexts, pick the sharper variant below. State which angle is being used in Step 2 of the workflow.
+
+### Default — "Product Leader"
+
+Use for **traditional PM roles** (Senior PM, Lead PM, Staff PM, Group PM at established companies) and **Head of Product / Director / VP** roles. Lean on roadmap ownership, strategy, KPI definition, cross-functional leadership.
+
+### "Maker-Leader" — for founding & 0→1 roles
+
+Use for **Founding PM, Founding Product Designer, Founding Engineer**, or any early-stage (Seed → Series B) role where product, design, and code collapse into one seat.
+
+A hybrid product leader who designs and ships 0→1 products end-to-end in code. Not a roadmap-only PM and not a pure IC engineer — both. Hands on the keyboard while still defining the *why* and *what*.
+
+The supporting method is **"design through building"**: prototypes directly in code (TypeScript, GraphQL, LLM APIs) rather than via Figma handoff, eliminating the lost-in-translation phase between design and production. This is evidenced by Folum, Travellar, and the ASOS executive BI tool — all designed and built by the same hands.
+
+### "Product-first AI builder" — for AI-focused roles
+
+Use for **AI-product roles, AI workflow PM, AI-feature-focused founding roles**, etc.
+
+Builds *with* AI rather than *building* AI. Integrates LLM APIs to ship AI-powered consumer features (Goodnotes AI features, Folum resume parsing, Travellar content generation). Does **not** build RAG systems, train models, or operate ML infrastructure. The angle emphasises the product-shipping side of AI work while staying honest about the technical scope.
+
+This angle should always be paired with the conservative AI register defined below — it's a framing lens, not a license to overclaim.
+
+---
+
 ## What You Are NOT
 
 These framings should never appear in a resume, even if a JD seems to invite them:
