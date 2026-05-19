@@ -32,6 +32,7 @@ Every primary experience entry in `master-resume.md` uses the same field set in 
 | **Role variants**        |          | Alternative titles to use when a JD better fits a different framing (founder-type roles)    |
 | **Previous role**        |          | Flag (`Yes` if set) marking a role as "Previous" — controls default render in tailored output (see the "Previous roles (flagged)" rule in Step 3 below) |
 | **Company**              |    ✓     | One-line company description for context                                                    |
+| **Website**              |          | Company URL — used to hyperlink the company name in the rendered resume (see "Company name hyperlinking" in `resume-template.md`) |
 | **Core narrative**       |          | One-line punchline framing for founder/0→1 roles                                            |
 | **Verified metrics**     |          | Exact, verified figures only — never approximated or combined                               |
 | **Key achievements**     |          | Top-level outcomes worth highlighting (3–5 items)                                           |
@@ -60,6 +61,21 @@ ATS systems score resumes largely on keyword overlap with the JD. To maximise th
 ## Resume Title
 
 The resume title is **not** a direct mirror of the JD's role title. Pick from the fixed set defined in `personal-profile.md` (under "Resume Title — Fixed Set"), choosing the variant that best matches the JD's seniority and role type.
+
+---
+
+## Role Order
+
+**CRITICAL: render Experience entries in the EXACT order they appear in `master-resume.md`.** Do not reorder them by:
+
+- JD relevance
+- Date (reverse chronological or otherwise)
+- Perceived impact or seniority
+- Role type (main role vs. side project)
+
+The master resume's order is canonical and reflects deliberate positioning decisions. This includes ongoing concurrent roles — a long-running side project may appear *after* a later-starting full-time role if that's how the master resume sequences them. Preserve that sequencing.
+
+The only exception is the `Previous role` flag (see Step 3 — "Previous roles (flagged)"). Flagged roles still appear in the master-resume's order, but collapsed under an "Earlier Experience" subsection at the bottom.
 
 ---
 
@@ -101,7 +117,6 @@ Choose the best positioning angle for this role, grounded in the core positionin
 - **Title:** Pick from the fixed set in `personal-profile.md` based on the JD's seniority and role type.
 - **Subtitle:** Apply the specificity-tracks-depth rule above.
 - **Summary:** 3–5 lines, written fresh for this role. Lead with the positioning angle and pack in 3–5 high-value JD keywords naturally. Anchor with 1–2 specifics (a metric, product type, or differentiator).
-- **Role order:** Render Experience entries in the **exact order they appear in `master-resume.md`** — don't reorder by JD relevance, by date, or by perceived impact. The master resume's ordering is canonical.
 - **Experience bullets:** 3–5 per role, sorted by relevance to the JD. **Mine the high-value fields in `master-resume.md` (see the Master Resume Schema section above): `Key achievements`, `Notable developments`, `Verified metrics`, `Tech stack`, and `Tools`.** These contain the specific shipped work, outcomes, and tooling that produce keyword-rich bullets. Don't default to paraphrasing `Responsibilities` — that produces generic, low-match bullets. Rewrite bullets to include JD keywords where the underlying work supports them. Skip role content irrelevant to the JD. If a role only has `Responsibilities` (no enrichment fields), flag it in the Tailoring Notes — bullets for that role will read more generically.
 - **Previous roles (flagged):** Roles in `master-resume.md` with `**Previous role:** Yes` are rendered differently from main Experience roles:
   - **Default — collapsed.** Render as a one-line entry at the bottom of the Experience section (under an "Earlier Experience" header) — typically title, company, dates, and a brief context phrase. No bullets.

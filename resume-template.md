@@ -24,7 +24,7 @@ SUMMARY
 EXPERIENCE
 
 [Role Title]                                        [Start] – [End]
-[Company]  •  [URL]                                       [Location]
+[Company]                                                [Location]
 [Optional: one-line company description]
 
 • Bullet
@@ -33,7 +33,7 @@ EXPERIENCE
 
 
 [Role Title]                                        [Start] – [End]
-[Company]  •  [URL]                                       [Location]
+[Company]                                                [Location]
 [Optional: one-line company description]
 
 • Bullet
@@ -87,8 +87,16 @@ The two colours are defined in `resume-style.json` under `colors.body` and `colo
 ### Alignment
 
 - **Role line:** Role title left, dates right — same line, achieved via tab stop (not a table)
-- **Company line:** Company + URL left, location right — same line, same way
+- **Company line:** Company name left, location right — same line, same way
 - **Everything else:** Left-aligned, full-width
+
+### Company name hyperlinking
+
+If a role in `master-resume.md` has a `**Website:**` field, render the **company name itself** as a hyperlink to that URL. Do not display the URL as a separate visible string on the company line — the URL lives in the hyperlink attribute only, not in the visible text.
+
+Style the hyperlink per `links` in `resume-style.json` (accent colour, no underline). The hyperlink is on the visible company name text only — not on the location, description, or any other adjacent content.
+
+If the role has no `Website` field, render the company name as plain body text (no hyperlink).
 
 ### Bullets
 
