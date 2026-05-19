@@ -155,6 +155,11 @@ See `personal-profile.md` ("Cross-Cutting Accuracy Constraints" and "AI Scope �
 
 ## Output Format
 
+For each tailoring request, produce the following in order:
+
 1. **Positioning Angle** (1 sentence)
-2. **Full Resume** (ready to download as `.docx`)
-3. **Tailoring Notes** (with targeted-keyword summary and ATS match estimate)
+2. **Full Resume — Markdown preview.** Render the complete tailored resume as clean markdown in the chat so the user can read and react to the content before any styled file is generated. Use `#` / `##` / `###` for hierarchy, `-` for bullets, bold for emphasis. This is a *content* preview — visual styling (colours, fonts, spacing per `resume-style.json`) only applies later in the docx.
+3. **Tailoring Notes** (with targeted-keyword summary, ATS match estimate, and notes on any conservative phrasings or expanded Previous roles)
+4. **Ask the user:** *"Would you like me to generate this as a downloadable `.docx` file?"* — and **wait for confirmation** before producing the styled document.
+
+If the user requests changes after seeing the markdown preview, iterate on the markdown first. Only generate the `.docx` once the user explicitly approves the content. The docx step then applies all the visual styling rules from `resume-template.md` and `resume-style.json`.

@@ -69,8 +69,11 @@ Claude will:
 
 1. Analyse the JD, extract the keyword list, and assess fit
 2. State the positioning angle it's using
-3. Generate a complete tailored resume (ready to download as `.docx`)
+3. Show the complete tailored resume as a **Markdown preview** in the chat
 4. Provide tailoring notes — targeted keywords, ATS match estimate, decisions
+5. Ask if you want a downloadable `.docx` file
+
+This preview-first flow lets you read and request changes to the content before any styled file is generated. Once you approve the content, Claude produces the `.docx` with the visual styling from `resume-template.md` and `resume-style.json`.
 
 ### Iterating on a resume
 
