@@ -71,7 +71,7 @@ The resume title is **not** a direct mirror of the JD's role title. Pick from th
 - If the master resume shows **shallow or peripheral experience** in the JD's domain, **stay broad and don't name it**. Use higher-level categories the user genuinely operates in (e.g. role archetype, go-to-market model, audience type). Broad-but-true beats specific-but-stretching.
 - The subtitle is where JD-aligned keyword density lives — but only with terms the master resume genuinely supports.
 - Rewrite the subtitle fresh for each application. Don't reuse one across submissions.
-- **Format — each item is a complete, standalone noun phrase.** Items should make sense in isolation. Use `0→1 Product Builder`, not `0→1`. Use `LLM Integrations`, not `LLM`. Use `Subscription Growth`, not `Subscription`. Fragments and single-word items read as filler.
+- **Format — each item is a complete, standalone noun phrase** (a role descriptor, capability, domain, audience, or product type). Items should make sense in isolation. Single words, abbreviations, or symbols without qualifiers read as filler — always expand them. See `personal-profile.md` for concrete subtitle item examples grounded in this user's experience, including fragments to avoid.
 - **Separator — use the pipe from `resume-style.json`** (`separators.subtitle`, currently ` | `). The full line under the name reads as: `[Resume Title] | [Item 1] | [Item 2] | [Item 3]`. Don't use `·` or other separators for the subtitle.
 
 When in doubt, ask: *can I point to a specific `Notable development` or `Key achievement` in `master-resume.md` that backs this subtitle phrase?* If not, broaden.

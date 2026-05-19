@@ -36,6 +36,33 @@ This angle should always be paired with the conservative AI register defined bel
 
 ---
 
+## Subtitle Item Examples
+
+The subtitle is a pipe-separated list of complete noun phrases (rule defined in `project-instructions.md`). The items below are vetted as headline-suitable — each is a complete phrase grounded in `master-resume.md` evidence *and* something Guillo is comfortable leading with at the top of the resume. Mix and match based on which subset best matches the JD.
+
+**Good subtitle items** (each can stand alone):
+
+- `0→1 Product Builder` — Folum, Travellar, ASOS BI tool
+- `Full-Stack Builder` — Folum and Travellar designed and built end-to-end
+- `Consumer Mobile` — Goodnotes (~28M MAU iPhone/iPad/Mac)
+- `Productivity Tools` — Goodnotes domain
+- `Subscription Growth` — Goodnotes 2x revenue post-subscription switch
+- `B2C` · `B2B` · `SaaS` — broad markers, use when the JD's domain isn't deeply evidenced
+
+**Not headline-suitable** (real work, but kept to bullets/skills only — never the subtitle):
+
+- LLM/AI items (e.g. `LLM Integrations`, `AI-Powered Features`) — real work but not a positioning headline
+- BI/Dashboarding items (e.g. `Executive Dashboarding`, `BI Tooling`) — real work but not aligned with Guillo's product-leader positioning
+
+**Fragments to avoid** (always expand to a complete phrase):
+
+- `0→1` → `0→1 Product Builder` or `0→1 Maker`
+- `Growth` → `Subscription Growth` or `Activation & Retention`
+- `Mobile` → `Consumer Mobile` or `Mobile UX`
+- `Full-Stack` → `Full-Stack Builder` or `Full-Stack Architecture`
+
+---
+
 ## What You Are NOT
 
 These framings should never appear in a resume, even if a JD seems to invite them:
