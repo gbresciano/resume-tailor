@@ -173,7 +173,21 @@ See `personal-profile.md` ("Cross-Cutting Accuracy Constraints" and "AI Scope �
 For each tailoring request, produce the following in order:
 
 1. **Positioning Angle** (1 sentence)
-2. **Full Resume — Markdown preview.** Render the complete tailored resume as clean markdown in the chat so the user can read and react to the content before any styled file is generated. Use `#` / `##` / `###` for hierarchy, `-` for bullets, bold for emphasis. This is a *content* preview — visual styling (colours, fonts, spacing per `resume-style.json`) only applies later in the docx.
+2. **Full Resume — Markdown preview.** Render the complete tailored resume as clean, readable markdown in the chat so the user can read and react to the content before any styled file is generated. Use `#` / `##` / `###` for hierarchy, `-` for bullets, bold for emphasis. This is a *content* preview — visual styling (colours, fonts, spacing per `resume-style.json`) only applies later in the docx.
+
+   **Role header format (markdown):** The tab-stop left/right layout used in the docx template does NOT translate to markdown — whitespace collapses and lines fuse. In the markdown preview, render each role header as a clearly-separated multi-line block, *never on a single line*:
+
+   ```
+   ### [Role Title] · [Company]
+   **[Start] – [End] · [Location]**
+
+   [Optional: one-line company description]
+
+   - Bullet
+   - Bullet
+   ```
+
+   If the role has a `**Website:**` field in `master-resume.md`, render the company name as a markdown link in the H3: e.g. `### Head of Product · [Loop](https://www.intheloop.io)`. The URL itself should not appear as visible text — only as the link target.
 3. **Tailoring Notes** (with targeted-keyword summary, ATS match estimate, and notes on any conservative phrasings or expanded Previous roles)
 4. **Ask the user:** *"Would you like me to generate this as a downloadable `.docx` file?"* — and **wait for confirmation** before producing the styled document.
 
