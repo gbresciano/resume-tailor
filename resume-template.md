@@ -10,7 +10,7 @@ Single-column, top-to-bottom, with **vertical spacing** (not horizontal rules) s
 
 ```
 [NAME IN ALL CAPS]
-[Resume Title]
+[Resume Title] | [Subtitle]
 
 [Phone]  •  [Email]  •  [Website]
 [Location]
@@ -69,7 +69,9 @@ The goal is a clean, low-noise document. Achieve this with **just three typograp
 | **H2**   | Section titles, Role titles                             | `typography.section_title` (for section headings) and `typography.role_title` (for role headings — same size/weight, accent colour) |
 | **Body** | Everything else (company, description, bullets, skills) | `typography.body`                                                                                                                   |
 
-The Resume Title under the name uses `typography.resume_title` (Body weight + size). It is **not** a fourth typography level — it sits directly under the name with normal styling.
+The line under the name contains both the **Resume Title** (from the fixed set in `personal-profile.md`) and the **Subtitle** (specificity-tracks-depth rule in `project-instructions.md`), separated by `|`. Both parts share the same styling — they use `typography.resume_title` in `resume-style.json`. This is **not** a fourth typography level; it sits directly under the name with normal styling.
+
+**Always include both title and subtitle.** If only the title appears, the resume is missing the subtitle.
 
 ### Colour — only two
 
