@@ -30,6 +30,8 @@
 
 **Company:** Folum is a resume website builder that makes personal branding easy and beautiful.
 
+**Website:** https://www.folum.me
+
 **Core narrative:** Conceived, designed, and built the product from 0→1.
 
 **Responsibilities:**
@@ -61,6 +63,8 @@
 **Role:** Senior Product Manager
 
 **Company:** The best digital note-taking experience. Apple iPad App of the Year 2022.
+
+**Website:** https://www.goodnotes.com
 
 **Verified metrics:**
 
@@ -108,6 +112,8 @@
 
 **Company:** The social travel app for solo travellers. We want to help you improvise your trips. When you get to a destination, just search, join or create and share activities to do over there. Meet like-minded people and explore the world together.
 
+**Website:** https://www.travellar.app
+
 **Core narrative:** Conceived, designed, and built the product from 0→1.
 
 **Responsibilities:**
@@ -138,6 +144,8 @@
 
 **Company:** A collaboration hub uniting email, chat and files in one app. Available on Desktop, iOS, Android and Web.
 
+**Website:** https://www.intheloop.io
+
 **Verified metrics:**
 
 - +18% MAU
@@ -165,6 +173,8 @@
 **Role:** Head of Product
 
 **Company:** Crikle is a customizable videoconferencing solution focused on customer engagement. Boost your branding by adding fully branded video calls to your website.
+
+**Website:** https://www.crikle.com
 
 **Key achievements:**
 
@@ -199,6 +209,8 @@
 
 **Company:** ASOS is a leading global online fashion retailer.
 
+**Website:** https://www.asos.com
+
 **Key achievements:**
 
 - Architected and built a custom mobile BI tool for the CEO, CIO, and executive leadership team
@@ -228,6 +240,8 @@
 **Previous role:** Yes
 
 **Company:** Danone is a multinational food-products corporation.
+
+**Website:** https://www.danone.com
 
 **Key achievements:**
 
