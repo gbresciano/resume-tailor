@@ -1,19 +1,31 @@
 # Resume Tailoring — Claude Project Setup Guide
 
 This folder contains everything you need to set up a Claude Project that
-generates tailored resumes from a single source of truth.
+generates ATS-optimised, tailored resumes from a single source of truth.
+
+---
+
+## Architecture: Generic vs. Personal Layer
+
+The project is split into two layers so it can be adapted for different people without rewriting the prompt logic:
+
+- **Generic layer** (works for anyone): `project-instructions.md`, `writing-preferences.md`, `resume-template.md`
+- **Personal layer** (one person's identity + history): `personal-profile.md`, `master-resume.md`
+
+To adapt this project for a different person, edit only the **Personal layer**. The generic layer references the personal layer through soft references (e.g. "see `personal-profile.md` for the resume title set") and works as-is.
 
 ---
 
 ## Files In This Package
 
-| File                      | What It Is                                         | Upload To Project                    |
-| ------------------------- | -------------------------------------------------- | ------------------------------------ |
-| `project-instructions.md` | The Claude Project system prompt                   | ✅ Paste into "Project Instructions" |
-| `master-resume.md`        | Verified career data — experience, metrics, skills | ✅ Upload as project file            |
-| `writing-preferences.md`  | Tone, wording rules, positioning, fit guidance     | ✅ Upload as project file            |
-| `resume-template.md`      | Structural layout scaffold                         | ✅ Upload as project file            |
-| `README.md`               | This file — setup guide                            | ❌ Keep locally                      |
+| File                      | What It Is                                                                  | Layer    | Upload To Project                    |
+| ------------------------- | --------------------------------------------------------------------------- | -------- | ------------------------------------ |
+| `project-instructions.md` | The Claude Project system prompt                                            | Generic  | ✅ Paste into "Project Instructions" |
+| `writing-preferences.md`  | Editorial style guide — tone, verb register, format, common mistakes        | Generic  | ✅ Upload as project file            |
+| `resume-template.md`      | Structural layout scaffold                                                  | Generic  | ✅ Upload as project file            |
+| `personal-profile.md`     | Identity, positioning, resume title set, cross-cutting accuracy constraints | Personal | ✅ Upload as project file            |
+| `master-resume.md`        | Verified career data — experience, metrics, skills                          | Personal | ✅ Upload as project file            |
+| `README.md`               | This file — setup guide                                                     | —        | ❌ Keep locally                      |
 
 ---
 
@@ -22,7 +34,7 @@ generates tailored resumes from a single source of truth.
 ### 1. Create a new Claude Project
 
 Go to [claude.ai](https://claude.ai) → **Projects** → **New Project**.
-Name it something like: `Resume Tailoring — Guillo Bresciano`
+Name it something like: `Resume Tailoring — [Your Name]`
 
 ### 2. Add the Project Instructions
 
@@ -35,11 +47,11 @@ Name it something like: `Resume Tailoring — Guillo Bresciano`
 Inside the project, click **Add content** (or the paperclip/upload icon):
 
 - Upload `master-resume.md` — verified career data
-- Upload `writing-preferences.md` — tone, positioning, and fit guidance
+- Upload `personal-profile.md` — identity, positioning, accuracy constraints
+- Upload `writing-preferences.md` — tone, verbs, format
 - Upload `resume-template.md` — structural scaffold
 
-Claude will have persistent access to all three files across every conversation
-in this project.
+Claude will have persistent access to all four files across every conversation in this project.
 
 ---
 
@@ -53,10 +65,10 @@ Start a new chat inside the project and paste in a job description:
 
 Claude will:
 
-1. Analyse the JD and assess fit
+1. Analyse the JD, extract the keyword list, and assess fit
 2. State the positioning angle it's using
 3. Generate a complete tailored resume (ready to download as `.docx`)
-4. Provide tailoring notes explaining every decision
+4. Provide tailoring notes — targeted keywords, ATS match estimate, decisions
 
 ### Iterating on a resume
 
@@ -75,27 +87,43 @@ You can also ask Claude to assess fit before generating a full resume:
 
 ---
 
+## Forking For Your Own Use
+
+To adapt this project for a different person:
+
+1. **Replace `master-resume.md`** with the new person's career data. Keep the same structure (per-role `Responsibilities`, `Notable developments`, `Key achievements`, `Verified metrics`, `AI scope`, `Accuracy note` where applicable).
+2. **Rewrite `personal-profile.md`** for the new person:
+   - **Core Positioning Statement** — one sentence describing how they pitch themselves
+   - **What You Are NOT** — framings to refuse even when invited (e.g. for an IC engineer who isn't a manager, list "people leader" here)
+   - **Resume Title — Fixed Set** — the canonical titles they're willing to use (e.g. a designer might use "Senior Product Designer / Staff Product Designer / Design Lead")
+   - **AI Scope — Conservative Register** — only if they have *some* AI exposure that's been overclaimed by past resumes; otherwise remove this section
+   - **Cross-Cutting Accuracy Constraints** — domain-specific overclaim guards (e.g. "no full-stack claims if the experience was frontend-only")
+3. **Leave the generic files alone** — `project-instructions.md`, `writing-preferences.md`, and `resume-template.md` work as-is.
+4. **Update `resume-template.md` contact line** with the new person's contact info.
+
+The generic files reference the personal files by name. As long as the personal files exist and follow the same section structure, the prompt logic continues to work.
+
+---
+
 ## Keeping The Source of Truth Up To Date
 
-The two knowledge files have different update cadences — treat them separately:
+Files have different update cadences — treat them separately:
 
-**`master-resume.md`** — update when career facts change: new role, confirmed
-metric, new tech used, new responsibility. This should be rare and deliberate.
+**`master-resume.md`** — update when career facts change: new role, confirmed metric, new tech used, new responsibility. Rare and deliberate.
 
-**`writing-preferences.md`** — update when preferences evolve: new tone
-direction, refined positioning, updated fit judgements, new safe/unsafe wording.
-This may change more frequently as you refine your approach.
+**`personal-profile.md`** — update when positioning evolves: a new "what you are not" framing surfaces, AI scope expands, you decide to drop a title from the fixed set. Occasional.
 
-To update either file: edit it locally, delete the old version from the Claude
-Project, and re-upload. Changes made only inside a conversation do not persist.
+**`writing-preferences.md`** — update if your editorial preferences drift (verb register, common mistakes you keep noticing). Rare.
+
+**`resume-template.md`** — update for format-only changes (margins, font preferences). Rare.
+
+To update any file: edit it locally, delete the old version from the Claude Project, and re-upload. Changes made only inside a conversation do not persist.
 
 ---
 
 ## Tips For Best Results
 
-- **Paste the full JD**, not just the title. The more signal Claude has, the
-  better the tailoring.
+- **Paste the full JD**, not just the title. The more signal Claude has, the better the keyword extraction and tailoring.
 - **Include the company name** — Claude may use it to frame industry context.
-- **Tell Claude the seniority level** if it's unclear from the JD.
-- **Ask for a cover letter** in the same conversation — Claude will use the same
-  tailoring decisions consistently.
+- **Tell Claude the seniority level** if it's unclear from the JD — it drives the title pick from the fixed set.
+- **Ask for a cover letter** in the same conversation — Claude will use the same tailoring decisions consistently.

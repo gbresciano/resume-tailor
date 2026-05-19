@@ -1,23 +1,12 @@
-# Writing Preferences & Positioning Guide
+# Writing Preferences & Style Guide
 
-> **Editorial guidance only.** This file contains tone, wording rules, and output conventions. Factual career data lives in `master-resume.md`.
+> **Generic editorial guidance.** Tone, wording defaults, and output conventions that apply regardless of who's using this project.
+>
+> - Personal identity, positioning, the resume title set, and cross-cutting accuracy constraints live in `personal-profile.md`.
+> - Factual career data lives in `master-resume.md`.
+> - ATS-driven JD keyword mirroring is defined in `project-instructions.md` — and it takes precedence over the style defaults below when the two come into tension (as long as the wording is truthful).
 
 ---
-
-## Positioning
-
-### Core Statement
-
-"Product leader with strong design and engineering capability who can operate end-to-end in high-ownership environments."
-
-### What Guillo Is Not
-
-These framings should never appear in a resume, even if a JD seems to invite them:
-
-- A pure visual designer
-- A pure software engineer
-- A media industry expert
-- A deep AI/ML researcher
 
 ## Tone
 
@@ -35,64 +24,57 @@ These framings should never appear in a resume, even if a JD seems to invite the
 
 - Corporate jargon
 - Inflated claims
-- Excessive buzzwords
+- Excessive buzzwords or adjectives
 - Specialist framing without direct experience
-- Excessive adjectives
 - Long paragraphs in bullets
 
-## Wording Rules
+---
 
-### Strong Action Verbs — Always Use
+## Wording Defaults
 
-Built · Designed · Led · Owned · Defined · Improved · Shipped · Launched · Conceived · Implemented · Increased · Simplified
+### Action Verbs — Register Examples
 
-### Weak Verbs — Never Use
+Bullets should open with strong, specific action verbs in this register. The list below is **illustrative, not exhaustive** — pick whatever verb most precisely fits the action and the JD's vocabulary.
 
-Helped · Assisted · Participated · Supported · Worked on
+Built · Designed · Led · Owned · Defined · Improved · Shipped · Launched · Conceived · Implemented · Increased · Simplified · Architected · Drove · Scaled · Migrated · Rebuilt · Established · Reduced
 
-### AI Wording — Safe Phrasings
+**Mirror JD verbs when truthful.** If the JD says "spearheaded," "championed," "delivered," "orchestrated," etc., and the underlying work supports it, use the JD's verb — it boosts ATS match. Don't substitute a different verb just because it's on the list above.
 
-Always prefer:
+### Weak Verbs — Avoid By Default
 
-- "AI-assisted workflows"
-- "LLM integrations"
-- "Integrated third-party AI APIs"
-- "Shipped AI capabilities into consumer products"
-- "AI-powered features"
+Bullets shouldn't open with: helped · assisted · participated · supported · worked on. These dilute ownership. If the JD itself uses one of these for a responsibility that was genuinely owned, rewrite to a stronger verb — but don't open with the weak form by default.
 
-Never use:
+### Domain-Sensitive Phrasing
 
-- "AI-native product leader"
-- "Advanced ML systems"
-- "AI-first platform"
-- "Deep AI expertise"
-- "Built an AI engine"
+Some claims (AI/ML expertise, people management scope, specialised technical work) must be calibrated to actual experience to avoid overstating. The conservative register and "never use" lists for these domains live in `personal-profile.md`.
 
-## Hard Constraints
+---
 
-These must never be violated regardless of what a JD asks for:
+## Hard Constraints — Universal Truth Rules
+
+These apply regardless of user. Person-specific accuracy constraints (AI scope, domain-specific overclaim guards, etc.) live in `personal-profile.md`.
 
 1. **No fabricated metrics.** Only use verified figures from `master-resume.md`.
-2. **No AI inflation.** LLM integrations were real but limited in scope.
-3. **No video editing claims.** Crikle involved video player UX and real-time comms — not full editing timelines or post-production workflows.
-4. **No inflated people management.** Only reference team leadership where the JD requires it and the experience genuinely supports it.
-5. **No multi-column layouts.** ATS compatibility requires single-column structure.
-6. **No weak verbs.** Rewrite any bullet that starts with helped/assisted/supported.
+2. **No invented skills or experience.** If the JD asks for something the master resume doesn't support, leave it out — even at the cost of ATS match score.
+3. **No multi-column layouts.** ATS parseability requires single-column structure.
+
+---
 
 ## Resume Format & Style
 
 ### Header Format
 
 ```
-GUILLO BRESCIANO
-[Role Title] | [Positioning Subtitle — e.g. "0→1 Builder | SaaS | B2C | B2B]
+[NAME IN ALL CAPS]
+[Role Title] | [Positioning Subtitle]
 
-📱 +44 7942 989842  |  📧 guillo@bresciano.org  |  🔗 www.bresciano.org
-London, UK
+[Phone]  |  [Email]  |  [Website]
+[Location]
 ```
 
 - Name in ALL CAPS
-- Subtitle tailored to the specific role, not generic
+- Title from the fixed set in `personal-profile.md`
+- Subtitle specificity tracks experience depth (see `project-instructions.md`)
 - Contact info compact and on one line if possible
 
 ### Section Titles
@@ -106,33 +88,24 @@ ROLE TITLE  ·  Start – End
 Company Name  ·  Location
 Optional: one-line company description if not widely known.
 
-Then concise bullet points:
-- Focus on outcomes
-- Focus on ownership
-- Focus on measurable impact
-- Focus on shipped products
-- Focus on product thinking
-- Focus on systems/UX simplification
-- Focus on scale/growth metrics
-
-Avoid:
-- Long paragraphs
-- Generic responsibilities
-- Corporate jargon
+• Concise, action-first bullet, outcome-focused
+• Specific shipped work or measurable impact
+• JD keywords woven in where the underlying work supports them
 ```
 
 ### Common Mistakes To Avoid
 
 - Starting bullets with "Responsible for..." — rewrite as active verb
-- Using "Worked closely with..." — rewrite as what was achieved
+- "Worked closely with..." — rewrite as what was actually achieved
 - Vague bullets like "Improved user experience" — add specifics or metrics
 - Overloading the summary with adjectives rather than substance
-- Listing skills that aren't evidenced in the experience section
-- Using the same resume structure for a PM role vs. a founding engineer role
+- Listing skills not evidenced in the experience section
+- Reusing the same resume structure regardless of role (PM vs. founding engineer should look different)
+- Paraphrasing `Responsibilities` from the master resume when `Notable developments` / `Key achievements` would yield richer, more keyword-dense bullets
 
-### Metrics Reference (Verified Only)
+### Metrics Reference
 
-Only use exact metrics from `master-resume.md` — do not extrapolate or inflate
+Only use exact metrics from `master-resume.md` — do not extrapolate, round differently, or combine across periods.
 
 ### Docx Formatting
 
@@ -142,3 +115,9 @@ Only use exact metrics from `master-resume.md` — do not extrapolate or inflate
 - Margins: ~1.5cm all sides
 - No tables, no text boxes, no multi-column layouts
 - Export to PDF to verify ATS compatibility before submitting
+
+### Length
+
+- Single page preferred
+- Two pages acceptable for senior/strategic roles
+- Never pad to fill space — cut before you expand

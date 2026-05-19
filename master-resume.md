@@ -3,7 +3,31 @@
 > **Factual record only.** This file contains verified experience, roles,
 > responsibilities, metrics, and skills. Do not invent, extrapolate, or
 > inflate anything not listed here. For tone, wording preferences, and fit
-> guidance, see `writing-preferences.md`.
+> guidance, see `writing-preferences.md`. For positioning, the title set,
+> and cross-cutting accuracy constraints, see `personal-profile.md`.
+
+---
+
+## Schema
+
+Every primary experience entry uses the same field set in the same order. Fields are optional unless marked **required**. Empty fields are omitted (rather than left as placeholders).
+
+| Field                  | Required | Purpose                                                                                  |
+| ---------------------- | :------: | ---------------------------------------------------------------------------------------- |
+| **Role**               |    ✓     | Canonical job title held                                                                 |
+| **Role variants**      |          | Alternative titles to use when a JD better fits a different framing (founder-type roles) |
+| **Company**            |    ✓     | One-line company description for context                                                 |
+| **Core narrative**     |          | One-line punchline framing for founder/0→1 roles                                         |
+| **Verified metrics**   |          | Exact, verified figures only — never approximated or combined                            |
+| **Key achievements**   |          | Top-level outcomes worth highlighting (3–5 items)                                        |
+| **Responsibilities**   |    ✓     | Ongoing scope of the role                                                                |
+| **Notable developments** |        | Specific systems, features, or technical work shipped — primary source for tailored bullets |
+| **Tech stack**         |          | Engineering technologies used (for technical bullets / skills mining)                    |
+| **Tools**              |          | Analytics, PM, and ops tools used (for PM bullets / skills mining)                       |
+| **AI scope**           |          | Honest description of AI work done, with overclaim guards                                |
+| **Accuracy notes**     |          | Per-role truth constraints (platforms, scope limits, etc.)                               |
+
+**For tailoring:** `Key achievements`, `Notable developments`, and `Verified metrics` are the highest-value fields for bullet generation. If a role only has `Responsibilities`, bullets will read generically — flag this in Tailoring Notes.
 
 ---
 
@@ -23,8 +47,7 @@
 
 **Role:** Maker
 
-**Role variants (to override `Role` if it better matches the JD):**
-Maker · Founder · Founder / Product Engineer · Founder & Product Designer / Builder
+**Role variants:** Maker · Founder · Founder / Product Engineer · Founder & Product Designer / Builder
 
 **Company:** Folum is a resume website builder that makes personal branding easy and beautiful.
 
@@ -43,8 +66,7 @@ Maker · Founder · Founder / Product Engineer · Founder & Product Designer / B
 
 **Tech stack:** GCP · Node.js · MongoDB · React · TypeScript · GraphQL · Stripe
 
-**AI scope:** LLM integration for resume parsing only.
-Do NOT describe as an advanced AI platform or AI-native product.
+**AI scope:** LLM integration for resume parsing only. Do NOT describe as an advanced AI platform or AI-native product.
 
 ---
 
@@ -79,10 +101,9 @@ Do NOT describe as an advanced AI platform or AI-native product.
 
 **Tools:** Mixpanel · Amplitude · Google Analytics · Tableau · Notion · Jira · Productboard
 
-**AI scope:** Integrated third-party LLM APIs and shipped AI-powered capabilities.
-Do NOT describe as advanced AI expertise or AI-native product leadership.
+**AI scope:** Integrated third-party LLM APIs and shipped AI-powered capabilities. Do NOT describe as advanced AI expertise or AI-native product leadership.
 
-**Accuracy note:** Only owned Apple palforms. Do not mention Android, Web or other platform.
+**Accuracy notes:** Only owned Apple platforms. Do not mention Android, Web or other platform.
 
 ---
 
@@ -90,8 +111,7 @@ Do NOT describe as advanced AI expertise or AI-native product leadership.
 
 **Role:** Maker
 
-**Role variants (to override `Role` if it better matches the JD):**
-Maker · Founder · Founder / Product Engineer · Founder & Product Designer / Builder
+**Role variants:** Maker · Founder · Founder / Product Engineer · Founder & Product Designer / Builder
 
 **Company:** The social travel app for solo travellers. We want to help you improvise your trips. When you get to a destination, just search, join or create and share activities to do over there. Meet like-minded people and explore the world together.
 
@@ -110,8 +130,7 @@ Maker · Founder · Founder / Product Engineer · Founder & Product Designer / B
 
 **Tech stack:** GCP · Node.js · MongoDB · React · TypeScript · GraphQL · Socket.io
 
-**AI scope:** AI-assisted content generation for activities only.
-Do NOT claim: AI recommendation engine · advanced personalisation · ML systems.
+**AI scope:** AI-assisted content generation for activities only. Do NOT claim: AI recommendation engine · advanced personalisation · ML systems.
 
 ---
 
@@ -134,7 +153,9 @@ Do NOT claim: AI recommendation engine · advanced personalisation · ML systems
 - User activation improvements
 - Product metrics and prioritisation
 
-**Accuracy note:** Do NOT claim full cross-platform parity ownership.
+**Notable developments:** _Not yet documented — add specific shipped work here to improve tailored bullets._
+
+**Accuracy notes:** Do NOT claim full cross-platform parity ownership.
 
 ---
 
@@ -152,27 +173,22 @@ Do NOT claim: AI recommendation engine · advanced personalisation · ML systems
 - Video experience improvements
 - Delivery
 
-**Scope worked on:** Video player experiences · real-time communication · lightweight presentation/editor workflows.
+**Notable developments:** Video player experiences · real-time communication · lightweight presentation/editor workflows.
 
 **Tech stack:** Twilio Video · Google Cloud · Node.js · React.js · GraphQL
 
-**Accuracy note:** Do NOT claim full video editor systems or advanced video editing timelines.
+**Accuracy notes:** Do NOT claim full video editor systems or advanced video editing timelines.
 
 ---
 
-### ASOS · Mar 2018 – Jul 2019
+## Previous Roles
 
-**Role:** Product Owner
+Earlier roles, summarised for context. Use sparingly in tailored resumes — typically as a one-line entry under an "Earlier Experience" section.
 
-**Context:** Large-scale e-commerce platform. Agile delivery environment.
+- **Product Owner · ASOS · Mar 2018 – Jul 2019** — Large-scale e-commerce platform. Agile delivery environment.
+- **Various roles · Danone · Sep 2009 – Jan 2018** — Business Intelligence · data & analytics · dashboards & reports.
 
 ---
-
-### Danone · Sep 2009 – Jan 2018
-
-**Role:** Various roles
-
-**Themes:** Business Intelligence · data & analytics · dashboards & reports
 
 ## Verified Metrics
 
