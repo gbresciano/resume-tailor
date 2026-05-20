@@ -77,7 +77,7 @@
 - Launched Goodnotes 6
 - Switched monetisation from one-time-payment to subscription
 - Shipped AI features leveraging LLM integrations
-- Shipped multiple highly successful features (Audio recording, Internal links, Dotted line tool, Ruler tool, etc)
+- Shipped multiple highly successful features
 
 **Responsibilities:**
 
@@ -92,9 +92,9 @@
 - Shipped Audio recording feature that syncs during playback
 - Shipped Full-page typing mode for typed notes
 - Shipped Internal links feature to add links to other pages within the same document
-- Shipped Customizable toolbar
-- Shipped Ruler tool
-- Shipped Dotted line tool
+- Shipped Customizable toolbar feature
+- Shipped Ruler tool feature
+- Shipped Dotted line tool feature
 
 **Tools:** Mixpanel · Amplitude · Google Analytics · Tableau · Notion · Jira · Productboard
 
