@@ -48,9 +48,14 @@
 **Notable developments:**
 
 - Designed a modular block-based architecture with structured data blocks, reusable React components, draggable/reorderable layouts, multiple presentation types, and a flexible content rendering system
-- Engineered a centralized theming system enabling users to fully customize and apply personalized themes across the entire UI of their web resume
-- Implemented contact vCard sharing through a page button, link, or QR code
+- Engineered a centralized theming system: page templates with curated layout/font/colour combinations, plus custom colour palettes, custom font selection, and granular layout controls (spacing, header style, borders, icons)
+- Built PDF-to-site import powered by LLM parsing — converts users' existing PDF resumes into structured Folum content in a few clicks
+- Built free hosting on `folum.me/@handle` with personalised user handles
 - Implemented custom domains for paid users
+- Implemented full white-labelling (no Folum branding) for paid users
+- Built social-share integration: Open Graph previews for shared links, plus custom favicon and share-preview icon
+- Implemented contact vCard sharing through a page button, link, or QR code
+- Enabled users to attach external links and images to individual roles, projects, education, and certification entries
 
 **Tech stack:** GCP · Node.js · MongoDB · React · TypeScript · GraphQL · Stripe
 
