@@ -116,6 +116,6 @@ These are truth claims that span multiple roles and override JD demands, even at
 
 1. **No AI inflation.** See the conservative register above.
 2. **No video editing claims.** Crikle work was video player UX and real-time communication only — not full editing timelines or post-production workflows.
-3. **No inflated people management.** Only reference team leadership where the JD requires it and the experience genuinely supports it.
+3. **People management scope:** **No experience managing, coaching, or mentoring Product Managers** — never claim PM team leadership. Engineering management is limited to the documented scopes in `master-resume.md`: Crikle (full engineering team, ~5 engineers) and Loop (frontend engineering team, 2 engineers). Don't extend engineering-management claims beyond those scopes or to other roles.
 
 Per-role accuracy notes (e.g. "Goodnotes: Apple platforms only — do not mention Android/Web") live inline in `master-resume.md` next to the relevant role.

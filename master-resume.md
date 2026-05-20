@@ -177,6 +177,7 @@
 **Responsibilities:**
 
 - Cross-platform roadmap ownership and product direction
+- Managed the frontend engineering team (2 engineers)
 - Onboarding optimisation
 - User activation improvements
 - Product metrics and prioritisation
@@ -209,7 +210,7 @@
 **Responsibilities:**
 
 - Product strategy and roadmap ownership
-- Engineering leadership
+- Managed the full engineering team (~5 engineers)
 - Real-time communication workflows
 - Video experience improvements
 - Delivery
