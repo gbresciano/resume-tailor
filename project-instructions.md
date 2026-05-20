@@ -91,13 +91,7 @@ When in doubt, ask: _can I point to a specific `Notable development` or `Key ach
 
 ### Step 1 — Analyse the JD
 
-**Begin every response with this line, on its own, before any other analysis:**
-
-`Render order: [Role 1] · [Role 2] · ... · [Role N]`
-
-This lists the Experience roles from `master-resume.md` in ascending `Sort order` (lowest first). It is a literal echo from the source — read the `Sort order` values and the role names from `master-resume.md` and output them in order. This commits the order before any content is generated, and lets the user verify the order is correct without scrolling through the whole resume.
-
-Then extract and briefly summarise:
+Analyse the JD internally to inform the steps that follow. Extract and briefly summarise:
 
 - **Role type** (PM / Product Engineer / Head of Product / etc.)
 - **Key themes** (e.g. consumer growth, AI workflows, collaboration tools)
@@ -197,10 +191,11 @@ See `personal-profile.md` ("Cross-Cutting Accuracy Constraints" and "AI Scope �
 
 ## Output Format
 
-For each tailoring request, produce the following in order:
+**If Step 2 produces gap-fill questions:** Output **only those questions** in this response — no render-order echo, no positioning angle, no resume, no tailoring notes. **Stop and wait for the user's answer.** The full output below happens in the *next* response, after the user has answered.
 
-1. **Positioning Angle** (1 sentence)
-2. **Full Resume — Markdown preview.** Render the complete tailored resume as clean, readable markdown in the chat so the user can read and react to the content before any styled file is generated. Use `#` / `##` / `###` for hierarchy, `-` for bullets, bold for emphasis. This is a _content_ preview — visual styling (colours, fonts, spacing per `resume-style.json`) only applies later in the docx.
+**Otherwise** (Step 2 didn't fire, or the user has just answered the gap-fill questions), produce the output in this sequence:
+
+**1. Tailored Resume — Markdown preview.** Open the response **directly with the resume content** — no preceding header, label, or introductory text. The first line of the response should be the resume's name (e.g. `# GUILLO BRESCIANO`). Render the rest as styled markdown so headers, bold, and links render normally in the chat: `#` / `##` / `###` for hierarchy, `-` for bullets, bold for emphasis, markdown links for company names with a `Website` field. This is a _content_ preview — visual styling (colours, fonts, spacing per `resume-style.json`) only applies later in the docx.
 
    **Role header format (markdown):** The tab-stop left/right layout used in the docx template does NOT translate to markdown — whitespace collapses and lines fuse. In the markdown preview, render each role header as a clearly-separated multi-line block, _never on a single line_:
 
@@ -216,7 +211,14 @@ For each tailoring request, produce the following in order:
 
    If the role has a `**Website:**` field in `master-resume.md`, render the company name as a markdown link in the H3: e.g. `### Head of Product · [Loop](https://www.intheloop.io)`. The URL itself should not appear as visible text — only as the link target.
 
-3. **Tailoring Notes** (with targeted-keyword summary, ATS match estimate, and notes on any conservative phrasings or expanded Previous roles)
-4. **Ask the user:** _"Would you like me to generate this as a downloadable `.docx` file?"_ — and **wait for confirmation** before producing the styled document.
+**2. Horizontal rule (`---`)** to visually separate the resume from the metadata that follows.
+
+**3. Render order echo** (from Step 1): `Render order: [Role 1] · [Role 2] · ... · [Role N]`
+
+**4. Positioning Angle** (1 sentence)
+
+**5. Tailoring Notes** (with targeted-keyword summary, ATS match estimate, and notes on any conservative phrasings or expanded Previous roles)
+
+**6. Ask the user:** _"Would you like me to generate this as a downloadable `.docx` file?"_ — and **wait for confirmation** before producing the styled document.
 
 If the user requests changes after seeing the markdown preview, iterate on the markdown first. Only generate the `.docx` once the user explicitly approves the content. The docx step then applies all the visual styling rules from `resume-template.md` and `resume-style.json`.
