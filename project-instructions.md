@@ -40,6 +40,7 @@ Every primary experience entry in `master-resume.md` uses the same field set in 
 | **Company**              |    ✓     | One-line company description for context                                                                                                                |
 | **Website**              |          | Company URL — used to hyperlink the company name in the rendered resume (see "Company name hyperlinking" in `resume-template.md`)                       |
 | **Location**             |          | Geographic location of the role (e.g. "London, UK"). Used on the company line of full entries and in the collapsed line for Previous roles.             |
+| **Domain tags**          |          | Pipe-separated tags identifying the role's industry/vertical, audience, business model, and product category (e.g. `EdTech \| Productivity \| B2C \| Subscription`). Mine these for the Summary and Skills section when the JD targets a specific vertical or audience. |
 | **Core narrative**       |          | One-line punchline framing for founder/0→1 roles                                                                                                        |
 | **Verified metrics**     |          | Exact, verified figures only — never approximated or combined                                                                                           |
 | **Key achievements**     |          | Top-level outcomes worth highlighting (3–5 items)                                                                                                       |

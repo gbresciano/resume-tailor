@@ -11,8 +11,9 @@ Single-column, top-to-bottom, with **vertical spacing** (not horizontal rules) s
 ```
 [NAME IN ALL CAPS]
 [Resume Title] | [Subtitle]
-
-[Phone]  •  [Email]  •  [Website]
+📱 [Phone]
+📧 [Email]
+🔗 [Website]
 
 
 SUMMARY

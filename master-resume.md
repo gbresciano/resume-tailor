@@ -34,6 +34,8 @@
 
 **Website:** https://www.folum.me
 
+**Domain tags:** HR-tech | Career-tech | Personal branding | Resume builder | Consumer Web | B2C | Subscription | Freemium | SaaS | 0→1
+
 **Core narrative:** Conceived, designed, and built the product from 0→1.
 
 **Responsibilities:**
@@ -74,6 +76,8 @@
 **Company:** The best digital note-taking experience. Apple iPad App of the Year 2022.
 
 **Website:** https://www.goodnotes.com
+
+**Domain tags:** EdTech | Productivity | Note-taking | Consumer Mobile | Apple ecosystem (iPhone / iPad / Mac) | B2C | Subscription
 
 **Verified metrics:**
 
@@ -125,6 +129,8 @@
 
 **Website:** https://www.travellar.app
 
+**Domain tags:** Travel-tech | Social | Consumer Mobile | B2C | Geolocation | 0→1
+
 **Core narrative:** Conceived, designed, and built the product from 0→1.
 
 **Responsibilities:**
@@ -142,8 +148,9 @@
 - Built social elements for sharing activities and lists, and commenting on activities
 - Implemented Socket.io to enable real-time updates for content and comments across active sessions without requiring page refreshes
 - Built extensive Mapbox integration with GeoJSON (including polylines) and routing
+- Shipped a native iOS app by wrapping the React web codebase with Capacitor, integrating native iOS APIs including geolocation, push notifications, haptics, and camera
 
-**Tech stack:** GCP · Node.js · MongoDB · React · TypeScript · GraphQL · Socket.io
+**Tech stack:** GCP · Node.js · MongoDB · React · TypeScript · GraphQL · Socket.io · Capacitor · Native iOS
 
 **AI scope:** AI-assisted content generation for activities only. Do NOT claim: AI recommendation engine · advanced personalisation · ML systems.
 
@@ -158,6 +165,8 @@
 **Company:** A collaboration hub uniting email, chat and files in one app. Available on Desktop, iOS, Android and Web.
 
 **Website:** https://www.intheloop.io
+
+**Domain tags:** Productivity | Collaboration | Email | Shared Inbox | Communication | Cross-platform | B2C | Subscription | SaaS
 
 **Verified metrics:**
 
@@ -190,6 +199,8 @@
 **Company:** Crikle is a customizable videoconferencing solution focused on customer engagement. Boost your branding by adding fully branded video calls to your website.
 
 **Website:** https://www.crikle.com
+
+**Domain tags:** Video conferencing | Customer engagement | Real-time communication | Branded video calls | B2B | SaaS
 
 **Key achievements:**
 
@@ -230,6 +241,8 @@
 
 **Location:** London, UK
 
+**Domain tags:** E-commerce | Fashion | Enterprise | Internal tooling | Business Intelligence | Executive-facing | Mobile (PWA + iOS)
+
 **Key achievements:**
 
 - Architected and built a custom mobile BI tool for the CEO, CIO, and executive leadership team
@@ -266,6 +279,8 @@
 
 **Location:** Montevideo, Uruguay & London, UK
 
+**Domain tags:** FMCG | Food & Beverage | Enterprise | Business Intelligence | Data & Analytics | Multinational
+
 **Key achievements:**
 
 - Built Danone Uruguay's Business Intelligence function from scratch
@@ -283,10 +298,26 @@
 
 ---
 
+## Education
+
+### Industrial Engineer · 2003 – 2009
+
+**Institution:** Universidad de Montevideo
+
+**Location:** Montevideo, Uruguay
+
+---
+
+## Languages
+
+- **Spanish:** Native
+- **English:** Full Professional
+
+---
+
 ## Verified Metrics
 
-Only use these exact figures. Do not approximate, round differently, or combine
-metrics across periods.
+Only use these exact figures. Do not approximate, round differently, or combine metrics across periods.
 
 | Company   | Metric              |
 | --------- | ------------------- |
@@ -331,3 +362,6 @@ Songwriting · Guitar · Singing · Rock and Roll · Hard Rock · Blues · Wrote
 
 **Martial Arts**
 Karate · Mixed Martial Arts · Muay Thai · Trained on Karate and Muay Thai
+
+**Maths**
+Multidimensional Calculus · Linear Algebra
