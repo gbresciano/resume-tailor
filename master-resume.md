@@ -223,6 +223,8 @@
 
 **Website:** https://www.asos.com
 
+**Location:** London, UK
+
 **Key achievements:**
 
 - Architected and built a custom mobile BI tool for the CEO, CIO, and executive leadership team
@@ -256,6 +258,8 @@
 **Company:** Danone is a multinational food-products corporation.
 
 **Website:** https://www.danone.com
+
+**Location:** Montevideo, Uruguay & London, UK
 
 **Key achievements:**
 

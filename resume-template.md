@@ -40,7 +40,7 @@ EXPERIENCE
 • Bullet
 
 
-EARLIER EXPERIENCE
+OTHER PREVIOUS EXPERIENCE
 
 [Role]  •  [Company]  •  [Dates]
 [Role]  •  [Company]  •  [Dates]
