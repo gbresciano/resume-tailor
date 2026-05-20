@@ -10,7 +10,7 @@ Single-column, top-to-bottom, with **vertical spacing** (not horizontal rules) s
 
 ```
 [NAME IN ALL CAPS]
-[Resume Title] | [Subtitle]
+[Resume Title] | [Subtitle item 1] | [Subtitle item 2] | [Subtitle item 3]
 📱 [Phone]
 📧 [Email]
 🔗 [Website]
@@ -69,7 +69,7 @@ The goal is a clean, low-noise document. Achieve this with **just three typograp
 | **H2**   | Section titles, Role titles                             | `typography.section_title` (for section headings) and `typography.role_title` (for role headings — same size/weight, accent colour) |
 | **Body** | Everything else (company, description, bullets, skills) | `typography.body`                                                                                                                   |
 
-The line under the name contains both the **Resume Title** (from the fixed set in `personal-profile.md`) and the **Subtitle** (specificity-tracks-depth rule in `project-instructions.md`), separated by `|`. Both parts share the same styling — they use `typography.resume_title` in `resume-style.json`. This is **not** a fourth typography level; it sits directly under the name with normal styling.
+The line under the name contains both the **Resume Title** (from the fixed set in `personal-profile.md`) and the **Subtitle** items (specificity-tracks-depth rule in `project-instructions.md`), with every item — title and each subtitle item — separated by ` | ` (the `separators.subtitle` value in `resume-style.json`). Never use `·` or any other character inside the subtitle. Both parts share the same styling — they use `typography.resume_title` in `resume-style.json`. This is **not** a fourth typography level; it sits directly under the name with normal styling.
 
 **Always include both title and subtitle.** If only the title appears, the resume is missing the subtitle.
 
@@ -126,7 +126,7 @@ One sans-serif family applied **everywhere**: see `font.primary` in the JSON (wi
 - No underlines (links inherit the accent colour — never underlined)
 - **No profile photo.** Photos hurt ATS parseability — most parsers skip or break on the image region. Omit even if a sample shows one. Re-add manually for non-ATS submissions if desired.
 - No background colours or shading
-- No icons next to contact info — plain text only
+- **Contact info: stacked on three lines, each prefixed with the emoji shown in the scaffold** (📱 phone, 📧 email, 🔗 website). Do not collapse the three lines into a single bullet-separated line, and do not drop the emojis.
 
 ### Decorative elements that must NOT appear
 
