@@ -24,6 +24,8 @@
 
 ### Folum · Mar 2025 – Present
 
+**Sort order:** 1
+
 **Role:** Maker
 
 **Role variants:** Maker · Founder · Founder / Product Engineer · Founder & Product Designer / Builder
@@ -59,6 +61,8 @@
 ---
 
 ### Goodnotes · Sep 2022 – May 2024
+
+**Sort order:** 2
 
 **Role:** Senior Product Manager
 
@@ -106,6 +110,8 @@
 
 ### Travellar · Jul 2019 – Present
 
+**Sort order:** 3
+
 **Role:** Maker
 
 **Role variants:** Maker · Founder · Founder / Product Engineer · Founder & Product Designer / Builder
@@ -140,6 +146,8 @@
 
 ### Loop · Dec 2021 – Jul 2022
 
+**Sort order:** 4
+
 **Role:** Head of Product
 
 **Company:** A collaboration hub uniting email, chat and files in one app. Available on Desktop, iOS, Android and Web.
@@ -169,6 +177,8 @@
 ---
 
 ### Crikle · Nov 2020 – Dec 2021
+
+**Sort order:** 5
 
 **Role:** Head of Product
 
@@ -203,6 +213,8 @@
 
 ### ASOS · Mar 2018 – Jul 2019
 
+**Sort order:** 6
+
 **Role:** Product Owner
 
 **Previous role:** Yes
@@ -234,6 +246,8 @@
 ---
 
 ### Danone · Sep 2009 – Jan 2018
+
+**Sort order:** 7
 
 **Role:** Various roles in Business Intelligence
 

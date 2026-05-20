@@ -9,7 +9,7 @@ You reframe, emphasise, and — critically — **mirror the JD's own keywords an
 **Two absolute rules, equally non-negotiable:**
 
 1. **Do not fabricate experience, metrics, or skills.**
-2. **Preserve the exact order of Experience roles from `master-resume.md`** — top to bottom, no reordering for any reason. (Reordering at the bullet/skill level *within* a role is allowed.)
+2. **Render Experience roles in ascending `Sort order` from `master-resume.md`.** The field is a fixed integer per role; sort by it, don't interpret it. (Reordering at the bullet/skill level *within* a role is allowed.)
 
 ---
 
@@ -33,6 +33,7 @@ Every primary experience entry in `master-resume.md` uses the same field set in 
 
 | Field                    | Required | Purpose                                                                                     |
 | ------------------------ | :------: | ------------------------------------------------------------------------------------------- |
+| **Sort order**           |    ✓     | Integer specifying the role's position in the rendered Experience section. Lower numbers appear first. Render entries by ascending `Sort order`. |
 | **Role**                 |    ✓     | Canonical job title held                                                                    |
 | **Role variants**        |          | Alternative titles to use when a JD better fits a different framing (founder-type roles)    |
 | **Previous role**        |          | Flag (`Yes` if set) marking a role as "Previous" — controls default render in tailored output (see the "Previous roles (flagged)" rule in Step 3 below) |
@@ -107,7 +108,7 @@ Choose the best positioning angle for this role, grounded in the core positionin
 - **Title:** Pick from the fixed set in `personal-profile.md` based on the JD's seniority and role type.
 - **Subtitle:** Apply the specificity-tracks-depth rule above.
 - **Summary:** 3–5 lines, written fresh for this role. Lead with the positioning angle and pack in 3–5 high-value JD keywords naturally. Anchor with 1–2 specifics (a metric, product type, or differentiator).
-- **Experience entries:** Walk through `master-resume.md` from top to bottom. For each role *in the order it appears there*, generate an entry. Do not re-sort the role list by anything else — the iteration order *is* the output order. Within each entry: 3–5 bullets, sorted by relevance to the JD. **Mine the high-value fields (see the Master Resume Schema section above): `Key achievements`, `Notable developments`, `Verified metrics`, `Tech stack`, and `Tools`.** These contain the specific shipped work, outcomes, and tooling that produce keyword-rich bullets. Don't default to paraphrasing `Responsibilities` — that produces generic, low-match bullets. Rewrite bullets to include JD keywords where the underlying work supports them. **Match the JD's level of detail — include implementation-level specifics (library names, protocols, SDKs) only when the JD calls for them; otherwise abstract them to outcome-level descriptions or omit.** Skip role content irrelevant to the JD. If a role only has `Responsibilities` (no enrichment fields), flag it in the Tailoring Notes — bullets for that role will read more generically.
+- **Experience entries:** Generate one entry per role in `master-resume.md`, ordered by ascending `Sort order`. Within each entry: 3–5 bullets, sorted by relevance to the JD. **Mine the high-value fields (see the Master Resume Schema section above): `Key achievements`, `Notable developments`, `Verified metrics`, `Tech stack`, and `Tools`.** These contain the specific shipped work, outcomes, and tooling that produce keyword-rich bullets. Don't default to paraphrasing `Responsibilities` — that produces generic, low-match bullets. Rewrite bullets to include JD keywords where the underlying work supports them. **Match the JD's level of detail — include implementation-level specifics (library names, protocols, SDKs) only when the JD calls for them; otherwise abstract them to outcome-level descriptions or omit.** Skip role content irrelevant to the JD. If a role only has `Responsibilities` (no enrichment fields), flag it in the Tailoring Notes — bullets for that role will read more generically.
 - **Previous roles (flagged):** Roles in `master-resume.md` with `**Previous role:** Yes` are rendered differently from main Experience roles:
   - **Default — collapsed.** Render as a one-line entry at the bottom of the Experience section (under an "Earlier Experience" header) — typically title, company, dates, and a brief context phrase. No bullets.
   - **Conditional — expanded.** If the JD specifically benefits from the role's content (e.g. the JD emphasises a theme that the role's `Key achievements` or `Notable developments` directly addresses), render it as a full bullet entry like the main Experience roles. **When in doubt, default to collapsed.**
