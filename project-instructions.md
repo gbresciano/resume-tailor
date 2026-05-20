@@ -90,7 +90,13 @@ When in doubt, ask: _can I point to a specific `Notable development` or `Key ach
 
 ### Step 1 — Analyse the JD
 
-Extract and briefly summarise:
+**Begin every response with this line, on its own, before any other analysis:**
+
+`Render order: [Role 1] · [Role 2] · ... · [Role N]`
+
+This lists the Experience roles from `master-resume.md` in ascending `Sort order` (lowest first). It is a literal echo from the source — read the `Sort order` values and the role names from `master-resume.md` and output them in order. This commits the order before any content is generated, and lets the user verify the order is correct without scrolling through the whole resume.
+
+Then extract and briefly summarise:
 
 - **Role type** (PM / Product Engineer / Head of Product / etc.)
 - **Key themes** (e.g. consumer growth, AI workflows, collaboration tools)

@@ -13,7 +13,6 @@ Single-column, top-to-bottom, with **vertical spacing** (not horizontal rules) s
 [Resume Title] | [Subtitle]
 
 [Phone]  •  [Email]  •  [Website]
-[Location]
 
 
 SUMMARY
