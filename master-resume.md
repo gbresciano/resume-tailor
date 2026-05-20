@@ -83,7 +83,7 @@
 
 - Owned the consumer product for Apple platforms (iPhone, iPad, Mac)
 - Defined roadmap and product vision
-- Defined free tier and monetisation strategy
+- Contributed to monetisation strategy by defining free tier limits
 - Led activation, conversion, and retention efforts
 - Partnered with engineering, design, research, and data teams
 
