@@ -36,7 +36,7 @@ Every primary experience entry in `master-resume.md` uses the same field set in 
 | **Sort order**           |    ✓     | Integer specifying the role's position in the rendered Experience section. Lower numbers appear first. Render entries by ascending `Sort order`.        |
 | **Role**                 |    ✓     | Canonical job title held                                                                                                                                |
 | **Role variants**        |          | Alternative titles to use when a JD better fits a different framing (founder-type roles)                                                                |
-| **Previous role**        |          | Flag (`Yes` if set) marking a role as "Previous" — controls default render in tailored output (see the "Previous roles (flagged)" rule in Step 3 below) |
+| **Previous role**        |          | Flag (`Yes` if set) marking a role as "Previous" — controls default render in tailored output (see the "Previous roles (flagged)" rule in Step 4 below) |
 | **Company**              |    ✓     | One-line company description for context                                                                                                                |
 | **Website**              |          | Company URL — used to hyperlink the company name in the rendered resume (see "Company name hyperlinking" in `resume-template.md`)                       |
 | **Location**             |          | Geographic location of the role (e.g. "London, UK"). Used on the company line of full entries and in the collapsed line for Previous roles.             |
@@ -105,11 +105,31 @@ Then extract and briefly summarise:
 - **Inferred seniority** — to pick the right title from the fixed set in `personal-profile.md`
 - **Experience depth check** — for each major JD theme, note whether the master resume's evidence is deep, moderate, or shallow. This drives subtitle specificity.
 
-### Step 2 — Select Positioning Angle
+### Step 2 — Gap-fill questions (conditional, max 2)
+
+If JD analysis surfaces a high-value theme where the master resume shows **adjacent but not direct evidence**, and a short factual question could clarify whether the user genuinely has that experience, ask 1–2 targeted questions before continuing to Step 3.
+
+**Guardrails:**
+
+- **Don't lead the witness.** Ask open factual questions ("Have you worked with X?", "What level of experience do you have with Y?"), not leading ones that hint at the answer you want.
+- **Accept "no" gracefully.** If the answer doesn't support the claim, proceed without it. Don't restate, rephrase, or push.
+- **Maximum 2 questions per JD.** If 2 questions don't close the gap, it probably isn't fillable in-conversation.
+
+**Skip this step entirely when:**
+
+- The existing master resume already covers the JD's main themes
+- The gap is minor or low-value
+- Asking would feel like a fishing expedition
+
+If new info is uncovered, incorporate it into the tailored resume in Step 4 and list the canonical-record update in Step 5.
+
+---
+
+### Step 3 — Select Positioning Angle
 
 Choose the best positioning angle for this role, grounded in the core positioning statement in `personal-profile.md`. State it in one sentence so the user can confirm or redirect.
 
-### Step 3 — Generate the Tailored Resume
+### Step 4 — Generate the Tailored Resume
 
 **Tailor aggressively. The default is "rewrite for this role," not "lightly adjust."**
 
@@ -146,7 +166,7 @@ Bullets should be concise, action-led, outcome-focused, and include a verified m
 
 For structure, formatting, tone, and verb/phrasing register, follow `resume-template.md` and `writing-preferences.md`. For person-specific accuracy guards (AI scope, domain overclaim limits), follow `personal-profile.md`.
 
-### Step 4 — Tailoring Notes
+### Step 5 — Tailoring Notes
 
 After the resume, include a short **Tailoring Notes** section:
 
@@ -157,6 +177,7 @@ After the resume, include a short **Tailoring Notes** section:
 - Any conservative phrasings applied (e.g. domain-specific claims kept narrow per `personal-profile.md`, subtitle broadened due to shallow domain experience)
 - Any roles flagged as having only `Responsibilities` (no enrichment fields) and likely to read generically
 - **Estimated ATS match score** and the main keywords still missing (if any)
+- **Suggested master-resume additions (if any):** If any new factual info was uncovered during the conversation (e.g. via Step 2 gap-fill questions), list specific additions to `master-resume.md` — role, field name (per schema), and exact text to add — so the user can paste them into the canonical record. Skip if nothing new was uncovered.
 
 ---
 
