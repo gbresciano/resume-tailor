@@ -77,7 +77,7 @@
 - Launched Goodnotes 6
 - Switched monetisation from one-time-payment to subscription
 - Shipped AI features leveraging LLM integrations
-- Shipped multiple highly successful features (Audio recording, Internal links, Dotted line tool)
+- Shipped multiple highly successful features (Audio recording, Internal links, Dotted line tool, Ruler tool, etc)
 
 **Responsibilities:**
 
