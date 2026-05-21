@@ -222,7 +222,7 @@
 - Owned lightweight presentation/editor workflows
 - Defined product requirements, success metrics, and launch plans for core video experiences.
 
-**Tech stack:** Twilio Video · Google Cloud · Node.js · React.js · GraphQL
+**Tech stack:** Twilio Video · Google Cloud · Node.js · React.js · GraphQL · PostgreSQL · NestJS
 
 **Accuracy notes:** Do NOT claim full video editor systems or advanced video editing timelines.
 
