@@ -352,17 +352,17 @@ A/B testing · Funnel analysis · Cohort analysis · Mixpanel · Amplitude · Go
 
 ## Interests
 
-**Travelling**
+**Travelling:**
 Adventure travelling · Visited more than 30 countries across 5 continents · Built my own travel app from scratch (Travellar)
 
-**Outdoors**
+**Outdoors:**
 Hiking · Camping · Sightseeing
 
-**Music**
+**Music:**
 Songwriting · Guitar · Singing · Rock and Roll · Hard Rock · Blues · Wrote and recorded demos of around 4 songs on my own
 
-**Martial Arts**
+**Martial Arts:**
 Karate · Mixed Martial Arts · Muay Thai · Trained on Karate and Muay Thai
 
-**Maths**
+**Maths:**
 Multidimensional Calculus · Linear Algebra
