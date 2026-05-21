@@ -20,6 +20,16 @@ ATS systems score resumes largely on keyword overlap with the JD. To maximise th
 
 ---
 
+## Keep Tailoring Invisible
+
+The resume should read as a polished personal document — not a one-off written for this specific JD. Mirror the JD's domain and vocabulary, but never reveal who the resume is aimed at.
+
+- **Never name the target company or its products** anywhere in the resume (summary, bullets, skills, subtitle). E.g. ❌ "the same TypeScript/React/GCP stack [Target] runs on" → ✅ "shipped on a TypeScript/React/GCP stack".
+- **Never address the target in second person.** No "your team", "your product", "what you're building".
+- Mirror **domain language**, not **branding**. The reader should infer the target from emphasis and vocabulary, not from explicit mentions.
+
+---
+
 ## Master Resume Schema
 
 Every primary experience entry in `master-resume.md` uses the same field set in the same order. Fields are optional unless marked **required**. Empty fields are omitted.

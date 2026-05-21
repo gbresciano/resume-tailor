@@ -259,8 +259,9 @@
 - Designed and built a custom mobile BI tool for the CEO, CIO, and executive team — delivering real-time business insights to leadership
 - Handled both PWA and native iOS design and development end-to-end as a single "maker"
 - Defined the executive dashboarding experience from scratch — information architecture, interaction design, and engineering
+- Created custom visualizations using D3.js
 
-**Tech stack:** PWA · Native iOS
+**Tech stack:** PWA · Native · iOS · SQL · D3.js · MicroStrayegy · Microsoft Power BI
 
 **Accuracy notes:** Did NOT work on the main ASOS consumer retail app. The work was an internal, executive-facing tool — not customer-facing e-commerce product.
 
@@ -296,6 +297,8 @@
 
 - Conceived and shipped Danone Uruguay's mobile dashboarding platform — adopted as a global best practice by HQ in Paris
 - Established BI processes, reporting cadences, and analytics tooling from a standing start
+
+**Tech stack:** Microsoft Excel · SQL · MicroStrayegy · Microsoft Power BI · Visual Basic
 
 ---
 
