@@ -221,6 +221,8 @@
 - Shipped and iterated on real-time communication workflows using Twilio Video.
 - Owned lightweight presentation/editor workflows
 - Defined product requirements, success metrics, and launch plans for core video experiences.
+- Shipped CRM integrations, such as Salesforce and Zoho
+- Built a meeting scheduling feature that integrates to Google and Outlook calendars
 
 **Tech stack:** Twilio Video · Google Cloud · Node.js · React.js · GraphQL · PostgreSQL · NestJS
 
@@ -349,7 +351,7 @@ Interaction design · Information architecture · UX workflows · Product thinki
 TypeScript · Node.js · React · GraphQL · MongoDB · GCP · Stripe · Mapbox + GeoJSON · LLM API integrations · Full-stack architecture · API thinking · Real-time systems · Offline-first products · PWA development
 
 **Data & Experimentation:**
-A/B testing · Funnel analysis · Cohort analysis · Mixpanel · Amplitude · Google Analytics · Tableau · Hypothesis-driven experimentation · Data-informed prioritisation · Executive dashboarding · Business Intelligence tooling
+A/B testing · Funnel analysis · Cohort analysis · Mixpanel · Amplitude · Google Analytics · Tableau · Hypothesis-driven experimentation · Data-informed prioritisation · Executive dashboarding · Business Intelligence tooling · Claude Code
 
 ---
 
